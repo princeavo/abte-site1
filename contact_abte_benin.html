@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700;800;900&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "tertiary-container": "#004118",
+              "outline": "#747683",
+              "on-primary-fixed-variant": "#1c4197",
+              "error-container": "#ffdad6",
+              "on-surface-variant": "#444652",
+              "on-primary": "#ffffff",
+              "surface-bright": "#f7fafc",
+              "on-error": "#ffffff",
+              "on-secondary-fixed-variant": "#004c68",
+              "surface-dim": "#d7dadc",
+              "on-tertiary-fixed-variant": "#005321",
+              "surface-variant": "#e0e3e5",
+              "surface-container-lowest": "#ffffff",
+              "on-tertiary-fixed": "#002109",
+              "on-primary-fixed": "#00174b",
+              "on-tertiary": "#ffffff",
+              "on-surface": "#181c1e",
+              "surface": "#f7fafc",
+              "surface-container-low": "#f1f4f6",
+              "secondary-fixed-dim": "#78d1ff",
+              "outline-variant": "#c4c6d4",
+              "on-background": "#181c1e",
+              "tertiary-fixed-dim": "#63df7f",
+              "primary": "#001d59",
+              "inverse-surface": "#2d3133",
+              "tertiary": "#00290d",
+              "primary-container": "#003087",
+              "primary-fixed": "#dbe1ff",
+              "background": "#f7fafc",
+              "on-tertiary-container": "#37b75d",
+              "on-secondary": "#ffffff",
+              "inverse-on-surface": "#eef1f3",
+              "secondary": "#006689",
+              "surface-tint": "#3959b0",
+              "tertiary-fixed": "#80fc98",
+              "on-primary-container": "#7f9df8",
+              "surface-container-high": "#e5e9eb",
+              "inverse-primary": "#b4c5ff",
+              "error": "#ba1a1a",
+              "surface-container": "#ebeef0",
+              "on-secondary-container": "#00516e",
+              "on-secondary-fixed": "#001e2c",
+              "primary-fixed-dim": "#b4c5ff",
+              "secondary-fixed": "#c3e8ff",
+              "secondary-container": "#4ec7ff",
+              "surface-container-highest": "#e0e3e5",
+              "on-error-container": "#93000a"
+            },
+            fontFamily: {
+              "headline": ["Epilogue"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-effect {
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+      }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-secondary/30">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-md shadow-sm">
+<nav class="flex justify-between items-center w-full px-8 py-4 max-w-7xl mx-auto">
+<div class="text-xl font-bold tracking-tighter text-[#001d59]">ABTE</div>
+<div class="hidden md:flex items-center space-x-8">
+<a class="font-['Epilogue'] font-medium text-sm tracking-tight text-slate-600 hover:text-[#001d59] transition-colors" href="accueil_abte_benin.html">Accueil</a>
+<a class="font-['Epilogue'] font-medium text-sm tracking-tight text-slate-600 hover:text-[#001d59] transition-colors" href="propos_abte_benin.html">À propos</a>
+<a class="font-['Epilogue'] font-medium text-sm tracking-tight text-slate-600 hover:text-[#001d59] transition-colors" href="strat_gie_2026_2028_abte_benin.html">Stratégie</a>
+<a class="font-['Epilogue'] font-medium text-sm tracking-tight text-slate-600 hover:text-[#001d59] transition-colors" href="nos_projets_abte_benin.html">Projets</a>
+<a class="font-['Epilogue'] font-medium text-sm tracking-tight text-slate-600 hover:text-[#001d59] transition-colors" href="exp_riences_enseignements_abte_benin.html">Expériences</a>
+<a class="font-['Epilogue'] font-medium text-sm tracking-tight text-slate-600 hover:text-[#001d59] transition-colors" href="gouvernance_abte_benin.html">Gouvernance</a>
+<a class="font-['Epilogue'] font-medium text-sm tracking-tight text-[#006689] font-bold border-b-2 border-[#006689] pb-1" href="contact_abte_benin.html">Contact</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 hover:bg-slate-100/50 rounded-lg transition-all active:scale-95">
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="dark_mode">dark_mode</span>
+</button>
+<button class="hidden md:block bg-primary text-on-primary px-6 py-2.5 rounded-xl font-headline font-bold text-sm hover:bg-primary-container transition-all shadow-md active:scale-95">
+                    Accéder à la plateforme
+                </button>
+</div>
+</nav>
+</header>
+<main class="pt-24 pb-20">
+<!-- Hero Section -->
+<section class="relative h-[409px] flex items-center overflow-hidden mb-16">
+<div class="absolute inset-0 bg-gradient-to-br from-primary-container to-primary z-0"></div>
+<div class="absolute inset-0 opacity-20 pointer-events-none" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBsZWom2TyCzBbd64UAjG-RTu81NnbUrjIogoTYB8LdndCjhMSU7dMDZW84wyBjLJRHZw9pPyjKI9uLn8sWmyQ__wU7Z2lGqvoDiNM0dvpb2oexLQ3_THi0oXP64zG-u9AQu0XWjbr063Wom4WtW_0ci_EtbaQU7l9ucHjWP3K1pKjHywuN1rLvRsf-6S_KRObifEDUrmN1Fat6HEoWYXLcvHZ7spC14HtkWetFyDXncTRJIa3vxDqs8sCG8yd6x23Z9BQP8GklA7w');"></div>
+<div class="max-w-7xl mx-auto px-8 w-full relative z-10">
+<h1 class="font-headline text-5xl md:text-6xl font-black text-white leading-tight mb-4 tracking-tight">
+                    Contact &amp; <br/><span class="text-secondary-fixed-dim">Nous rejoindre</span>
+</h1>
+<p class="text-white/80 text-lg max-w-2xl font-light leading-relaxed">
+                    Bâtissons ensemble l'avenir de l'éducation numérique au Bénin. Que vous soyez étudiant, enseignant ou partenaire potentiel, nous sommes à votre écoute.
+                </p>
+</div>
+</section>
+<!-- Main Content Grid -->
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Contact Form Section -->
+<div class="lg:col-span-7">
+<div class="bg-surface-container-lowest rounded-full p-10 shadow-sm border border-outline-variant/10">
+<h2 class="font-headline text-3xl font-bold text-primary mb-8">Envoyez-nous un message</h2>
+<form action="#" class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="text-sm font-bold text-on-surface-variant block ml-1">Nom complet</label>
+<input class="w-full bg-surface-container-low border-none rounded-xl py-4 px-6 focus:ring-2 focus:ring-secondary/50 transition-all placeholder:text-outline/50" placeholder="Jean Dupont" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-bold text-on-surface-variant block ml-1">Email professionnel</label>
+<input class="w-full bg-surface-container-low border-none rounded-xl py-4 px-6 focus:ring-2 focus:ring-secondary/50 transition-all placeholder:text-outline/50" placeholder="jean.dupont@exemple.bj" type="email"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-bold text-on-surface-variant block ml-1">Profil</label>
+<div class="grid grid-cols-3 gap-4">
+<button class="py-3 px-4 rounded-xl border-2 border-outline-variant/20 hover:border-secondary transition-all text-sm font-medium text-center focus:bg-secondary focus:text-white focus:border-secondary" type="button">Étudiant</button>
+<button class="py-3 px-4 rounded-xl border-2 border-outline-variant/20 hover:border-secondary transition-all text-sm font-medium text-center focus:bg-secondary focus:text-white focus:border-secondary" type="button">Professeur</button>
+<button class="py-3 px-4 rounded-xl border-2 border-outline-variant/20 hover:border-secondary transition-all text-sm font-medium text-center focus:bg-secondary focus:text-white focus:border-secondary" type="button">Partenaire</button>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-bold text-on-surface-variant block ml-1">Sujet</label>
+<input class="w-full bg-surface-container-low border-none rounded-xl py-4 px-6 focus:ring-2 focus:ring-secondary/50 transition-all placeholder:text-outline/50" placeholder="Objet de votre demande" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-bold text-on-surface-variant block ml-1">Votre message</label>
+<textarea class="w-full bg-surface-container-low border-none rounded-xl py-4 px-6 focus:ring-2 focus:ring-secondary/50 transition-all placeholder:text-outline/50 resize-none" placeholder="Comment pouvons-nous vous aider ?" rows="5"></textarea>
+</div>
+<button class="w-full bg-primary text-white py-5 rounded-xl font-headline font-bold text-lg hover:bg-primary-container transition-all flex items-center justify-center gap-3 shadow-lg active:scale-95 group" type="submit">
+                            Envoyer la demande
+                            <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform" data-icon="send">send</span>
+</button>
+</form>
+</div>
+</div>
+<!-- Info & Map Section -->
+<div class="lg:col-span-5 space-y-8">
+<!-- Official Details -->
+<div class="bg-surface-container-low rounded-full p-8 space-y-8">
+<h3 class="font-headline text-2xl font-bold text-primary">Coordonnées officielles</h3>
+<div class="flex items-start gap-5">
+<div class="w-12 h-12 rounded-xl bg-white flex items-center justify-center shadow-sm text-secondary shrink-0">
+<span class="material-symbols-outlined" data-icon="location_on">location_on</span>
+</div>
+<div>
+<p class="font-bold text-on-surface">Siège ABTE</p>
+<p class="text-on-surface-variant text-sm leading-relaxed">Cotonou, Quartier Haie Vive, Rue 412, Immeuble ABTE, Bénin</p>
+</div>
+</div>
+<div class="flex items-start gap-5">
+<div class="w-12 h-12 rounded-xl bg-white flex items-center justify-center shadow-sm text-secondary shrink-0">
+<span class="material-symbols-outlined" data-icon="mail">mail</span>
+</div>
+<div>
+<p class="font-bold text-on-surface">Email institutionnel</p>
+<p class="text-on-surface-variant text-sm">contact@abte.bj</p>
+<p class="text-on-surface-variant text-sm">support@abte.bj</p>
+</div>
+</div>
+<div class="flex items-start gap-5">
+<div class="w-12 h-12 rounded-xl bg-white flex items-center justify-center shadow-sm text-secondary shrink-0">
+<span class="material-symbols-outlined" data-icon="call">call</span>
+</div>
+<div>
+<p class="font-bold text-on-surface">Téléphone</p>
+<p class="text-on-surface-variant text-sm">+229 21 00 00 00</p>
+<p class="text-on-surface-variant text-sm">+229 60 00 00 00</p>
+</div>
+</div>
+</div>
+<!-- Styled Map Placeholder -->
+<div class="rounded-full overflow-hidden h-64 relative group shadow-inner bg-surface-container-high">
+<div class="absolute inset-0 bg-cover bg-center grayscale contrast-125 opacity-70 group-hover:grayscale-0 transition-all duration-700" data-alt="stylized top-down view of an urban city map with clean minimalist lines and architectural details" data-location="Cotonou" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDzG1FS7-Tkkq6Rn0xB_5w3r_sQbnUzkE_QgRAMdz0Em-T2G-Fd8DK7gXx28r5PdDdmfLLC5u0GPx1Yd5uvnz2bVktjP-5d4Y_lwIygk9GRNIpO0GsKfs_xQE5M8BSy5l55k-lrxn-04s8m6E_Gyto5VatoUcz03UjM7CD5kdjc1vCRRh6R7VmCvoDSb5toDhzbx2FToVFptqXW3t1QcZUO8t45IzyVEl4gSWfstehe20Oaa4IiBneJrHLyBIUrIIk_yi2KRyXHC0o')"></div>
+<div class="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors"></div>
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center">
+<div class="w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center shadow-xl animate-bounce">
+<span class="material-symbols-outlined text-sm" data-icon="location_on" data-weight="fill">location_on</span>
+</div>
+<div class="bg-white px-4 py-2 rounded-lg shadow-xl mt-2 text-xs font-bold text-primary">Nous trouver</div>
+</div>
+</div>
+<!-- Social Links -->
+<div class="bg-white border border-outline-variant/10 rounded-full p-6 flex justify-around items-center">
+<a class="flex flex-col items-center gap-2 group" href="#">
+<div class="w-12 h-12 rounded-full flex items-center justify-center bg-surface-container-low group-hover:bg-[#0077b5] group-hover:text-white transition-all">
+<span class="material-symbols-outlined text-xl" data-icon="groups">groups</span>
+</div>
+<span class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">LinkedIn</span>
+</a>
+<a class="flex flex-col items-center gap-2 group" href="#">
+<div class="w-12 h-12 rounded-full flex items-center justify-center bg-surface-container-low group-hover:bg-[#000000] group-hover:text-white transition-all">
+<span class="material-symbols-outlined text-xl" data-icon="share">share</span>
+</div>
+<span class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">X (Twitter)</span>
+</a>
+<a class="flex flex-col items-center gap-2 group" href="#">
+<div class="w-12 h-12 rounded-full flex items-center justify-center bg-surface-container-low group-hover:bg-[#1877f2] group-hover:text-white transition-all">
+<span class="material-symbols-outlined text-xl" data-icon="public">public</span>
+</div>
+<span class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">Facebook</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Recruitment / Partnership Section -->
+<section class="max-w-7xl mx-auto px-8 mt-24">
+<div class="bg-surface-container-highest rounded-full p-12 relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-12">
+<div class="absolute top-0 right-0 w-64 h-64 bg-secondary/5 rounded-full -mr-20 -mt-20 blur-3xl"></div>
+<div class="relative z-10 max-w-xl">
+<span class="inline-block bg-tertiary-container text-white px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest mb-6">Opportunités</span>
+<h2 class="font-headline text-4xl font-bold text-primary mb-6">Appel à manifestation d'intérêt</h2>
+<p class="text-on-surface-variant text-lg leading-relaxed mb-8">
+                        L'ABTE est constamment à la recherche de talents et d'experts pour enrichir ses programmes. Vous souhaitez devenir contributeur ou partenaire technologique ?
+                    </p>
+<div class="flex flex-wrap gap-4">
+<a class="bg-primary text-white px-8 py-4 rounded-xl font-bold hover:bg-primary-container transition-all active:scale-95" href="#">Rejoindre l'équipe</a>
+<a class="bg-white border-2 border-primary/20 text-primary px-8 py-4 rounded-xl font-bold hover:bg-surface-container-low transition-all active:scale-95" href="#">Proposer un partenariat</a>
+</div>
+</div>
+<div class="w-full md:w-1/3 aspect-square rounded-full overflow-hidden shadow-2xl relative">
+<img alt="collaborative team meeting" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000" data-alt="a diverse group of professionals working together around a laptop in a modern bright office with glass walls" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAfGTmfit4R9g2GLVItAi6DMaEqz3tX-LhbsrvhGcuzuHlBIiRW0ljNx757QOMXn2jNsRIySGuHTsxOw_NagH4iFZzeVIV8MM2G-cFbFsdXhu_3F3EXiG2xBpWMWdn3l85h330-EGcl70JJN1zT7G6kpM7-P88S4HzMaMtN9rtowh3L0zQ8rN-sdg4ZtrFK_h4QJOvljzs75RxH1mQ9BF0hGLNCXHKr8OsNclOTcltidi5MgRBg60T0VIRJJkrF3PzE0B_mrpk0LA"/>
+<div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#001d59] text-white w-full mt-auto">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 py-16 max-w-7xl mx-auto">
+<div class="col-span-1 md:col-span-1">
+<div class="text-2xl font-black text-white mb-6">ABTE</div>
+<p class="font-['Inter'] text-sm leading-relaxed text-slate-300">
+                    L'excellence du télé-enseignement au service du développement des compétences nationales.
+                </p>
+</div>
+<div>
+<h4 class="font-headline font-bold text-lg mb-6 text-secondary-fixed-dim">Navigation</h4>
+<ul class="space-y-4 font-['Inter'] text-sm">
+<li><a class="text-slate-300 hover:text-white transition-colors" href="accueil_abte_benin.html">Accueil</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors" href="propos_abte_benin.html">À propos</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors" href="#">Plateforme</a></li>
+<li><a class="text-white underline" href="contact_abte_benin.html">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline font-bold text-lg mb-6 text-secondary-fixed-dim">Informations</h4>
+<ul class="space-y-4 font-['Inter'] text-sm">
+<li><a class="text-slate-300 hover:text-white transition-colors" href="mentions_l_gales_abte_benin.html">Mentions Légales</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors" href="accueil_abte_benin.html">Plan du site</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors" href="#">Confidentialité</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline font-bold text-lg mb-6 text-secondary-fixed-dim">Réseaux Sociaux</h4>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined text-sm" data-icon="groups">groups</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined text-sm" data-icon="share">share</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined text-sm" data-icon="public">public</span>
+</a>
+</div>
+<p class="mt-8 text-xs text-slate-400 font-['Inter']">
+                    © 2024 Agence Béninoise de Télé-Enseignement (ABTE). Tous droits réservés.
+                </p>
+</div>
+</div>
+</footer>
+</body></html>

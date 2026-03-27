@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700;800;900&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "tertiary-container": "#004118",
+              "outline": "#747683",
+              "on-primary-fixed-variant": "#1c4197",
+              "error-container": "#ffdad6",
+              "on-surface-variant": "#444652",
+              "on-primary": "#ffffff",
+              "surface-bright": "#f7fafc",
+              "on-error": "#ffffff",
+              "on-secondary-fixed-variant": "#004c68",
+              "surface-dim": "#d7dadc",
+              "on-tertiary-fixed-variant": "#005321",
+              "surface-variant": "#e0e3e5",
+              "surface-container-lowest": "#ffffff",
+              "on-tertiary-fixed": "#002109",
+              "on-primary-fixed": "#00174b",
+              "on-tertiary": "#ffffff",
+              "on-surface": "#181c1e",
+              "surface": "#f7fafc",
+              "surface-container-low": "#f1f4f6",
+              "secondary-fixed-dim": "#78d1ff",
+              "outline-variant": "#c4c6d4",
+              "on-background": "#181c1e",
+              "tertiary-fixed-dim": "#63df7f",
+              "primary": "#001d59",
+              "inverse-surface": "#2d3133",
+              "tertiary": "#00290d",
+              "primary-container": "#003087",
+              "primary-fixed": "#dbe1ff",
+              "background": "#f7fafc",
+              "on-tertiary-container": "#37b75d",
+              "on-secondary": "#ffffff",
+              "inverse-on-surface": "#eef1f3",
+              "secondary": "#006689",
+              "surface-tint": "#3959b0",
+              "tertiary-fixed": "#80fc98",
+              "on-primary-container": "#7f9df8",
+              "surface-container-high": "#e5e9eb",
+              "inverse-primary": "#b4c5ff",
+              "error": "#ba1a1a",
+              "surface-container": "#ebeef0",
+              "on-secondary-container": "#00516e",
+              "on-secondary-fixed": "#001e2c",
+              "primary-fixed-dim": "#b4c5ff",
+              "secondary-fixed": "#c3e8ff",
+              "secondary-container": "#4ec7ff",
+              "surface-container-highest": "#e0e3e5",
+              "on-error-container": "#93000a"
+            },
+            fontFamily: {
+              "headline": ["Epilogue"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-card {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(12px);
+      }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-md shadow-sm">
+<div class="flex justify-between items-center w-full px-8 py-4 max-w-7xl mx-auto">
+<div class="text-xl font-bold tracking-tighter text-[#001d59]">ABTE</div>
+<nav class="hidden md:flex space-x-8 items-center">
+<a class="text-slate-600 hover:text-[#001d59] transition-colors font-['Epilogue'] font-medium text-sm tracking-tight" href="accueil_abte_benin.html">Accueil</a>
+<a class="text-slate-600 hover:text-[#001d59] transition-colors font-['Epilogue'] font-medium text-sm tracking-tight" href="propos_abte_benin.html">À propos</a>
+<a class="text-[#006689] font-bold border-b-2 border-[#006689] pb-1 font-['Epilogue'] text-sm tracking-tight" href="strat_gie_2026_2028_abte_benin.html">Stratégie</a>
+<a class="text-slate-600 hover:text-[#001d59] transition-colors font-['Epilogue'] font-medium text-sm tracking-tight" href="nos_projets_abte_benin.html">Projets</a>
+<a class="text-slate-600 hover:text-[#001d59] transition-colors font-['Epilogue'] font-medium text-sm tracking-tight" href="exp_riences_enseignements_abte_benin.html">Expériences</a>
+<a class="text-slate-600 hover:text-[#001d59] transition-colors font-['Epilogue'] font-medium text-sm tracking-tight" href="gouvernance_abte_benin.html">Gouvernance</a>
+</nav>
+<div class="flex items-center space-x-6">
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer">dark_mode</span>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-xl font-medium text-sm transition-all active:scale-95">Accéder à la plateforme</button>
+</div>
+</div>
+</header>
+<main class="pt-24">
+<!-- Hero Section: Strategy Intro -->
+<section class="relative py-24 overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-br from-primary-container to-primary -z-10"></div>
+<div class="max-w-7xl mx-auto px-8 grid md:grid-cols-2 gap-12 items-center">
+<div class="text-white">
+<span class="inline-block px-4 py-1 rounded-full bg-secondary text-white text-xs font-bold tracking-widest uppercase mb-6">Vision 2026-2028</span>
+<h1 class="font-headline text-5xl md:text-6xl font-extrabold tracking-tight leading-none mb-8">L'Éducation Digitale <br/><span class="text-secondary-fixed">Souveraine &amp; Inclusive</span></h1>
+<p class="text-xl text-blue-100 max-w-xl leading-relaxed opacity-90 mb-10">Une feuille de route analytique pour transformer le paysage du télé-enseignement au Bénin, structurée pour la résilience et l'excellence académique.</p>
+<div class="flex gap-4">
+<button class="bg-secondary text-white px-8 py-4 rounded-xl font-bold flex items-center gap-3 hover:bg-secondary-container transition-all">
+<span class="material-symbols-outlined">download</span>
+                            Télécharger le PDF
+                        </button>
+</div>
+</div>
+<div class="relative hidden md:block">
+<div class="w-full aspect-square rounded-3xl overflow-hidden shadow-2xl rotate-3">
+<img class="w-full h-full object-cover" data-alt="High-angle shot of focused students in a modern technological classroom using laptops with glowing screens in a clean bright environment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBi1_RaqJZpyAda-y4PctgZ7ypgBmDvcu6aGwslSqlWDo00Hflf3YToK6PMcku5HxsNNc0d5p6schgIsyGiJzkJhvLuwQzWbPCXFDmMRIO_EX-n0mAo6s2TRzq_clg7ABnjjxxO4qXIl9IBc0CDTMPo9bqjc26kSzSLJ50KfWKk2KaFENFj3lu510cZy4mn06vIDhXjs9mrkCQE89pbwiKx5jneKdot19eVR-7LEH2iaGyVUZ5M7cLh_5tL4jjBKqElSa3rbAJU_A"/>
+</div>
+<div class="absolute -bottom-6 -left-6 glass-card p-6 rounded-2xl shadow-xl max-w-xs">
+<p class="text-primary font-bold text-lg leading-tight">Objectif : 1 Million d'apprenants connectés d'ici 2028.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Two Phases Detail -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-8">
+<div class="mb-16 text-center">
+<h2 class="font-headline text-3xl font-bold text-primary mb-4">Déploiement en Deux Phases</h2>
+<div class="w-24 h-1 bg-secondary mx-auto"></div>
+</div>
+<div class="grid md:grid-cols-2 gap-8">
+<!-- Phase 1 -->
+<div class="bg-white rounded-3xl p-10 shadow-sm border-l-8 border-primary relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-8xl" style="font-variation-settings: 'FILL' 1;">foundation</span>
+</div>
+<span class="text-secondary font-bold text-sm tracking-widest uppercase block mb-2">Phase 1 : 2026</span>
+<h3 class="font-headline text-3xl font-black text-primary mb-6">Consolidation</h3>
+<p class="text-on-surface-variant leading-relaxed mb-8">Mise en place des fondations techniques et pédagogiques. Audit des infrastructures existantes et standardisation des contenus pour assurer une base robuste.</p>
+<ul class="space-y-4">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-on-tertiary-container mt-1">check_circle</span>
+<span class="font-medium">Optimisation des plateformes LMS existantes</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-on-tertiary-container mt-1">check_circle</span>
+<span class="font-medium">Formation intensive des premiers tuteurs référents</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-on-tertiary-container mt-1">check_circle</span>
+<span class="font-medium">Établissement du cadre légal du télé-enseignement</span>
+</li>
+</ul>
+</div>
+<!-- Phase 2 -->
+<div class="bg-white rounded-3xl p-10 shadow-sm border-l-8 border-secondary relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-8xl" style="font-variation-settings: 'FILL' 1;">rocket_launch</span>
+</div>
+<span class="text-secondary font-bold text-sm tracking-widest uppercase block mb-2">Phase 2 : 2027 - 2028</span>
+<h3 class="font-headline text-3xl font-black text-primary mb-6">Expansion</h3>
+<p class="text-on-surface-variant leading-relaxed mb-8">Montée en puissance du dispositif à l'échelle nationale. Intégration de l'IA adaptative et généralisation des parcours 100% en ligne pour les zones reculées.</p>
+<ul class="space-y-4">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary mt-1">add_circle</span>
+<span class="font-medium">Déploiement de l'infrastructure Cloud souveraine</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary mt-1">add_circle</span>
+<span class="font-medium">Lancement du catalogue de certifications internationales</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary mt-1">add_circle</span>
+<span class="font-medium">Partenariats public-privé pour l'accès aux terminaux</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Comparative Table -->
+<section class="py-24 bg-white">
+<div class="max-w-7xl mx-auto px-8">
+<div class="mb-12">
+<h2 class="font-headline text-3xl font-bold text-primary mb-2">Analyse Comparative des Modèles</h2>
+<p class="text-on-surface-variant">Comparaison technique entre le modèle hybride initial et le déploiement full-digital.</p>
+</div>
+<div class="overflow-hidden rounded-3xl border border-outline-variant shadow-lg">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-primary text-white">
+<th class="p-6 font-headline font-semibold border-r border-white/10">Dimension</th>
+<th class="p-6 font-headline font-semibold border-r border-white/10">Modèle Hybride (Initial)</th>
+<th class="p-6 font-headline font-semibold">Modèle 100% en Ligne (Cible)</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-outline-variant">
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="p-6 font-bold text-primary bg-surface-container-lowest">Objectifs</td>
+<td class="p-6">Transition progressive et acculturation digitale des enseignants.</td>
+<td class="p-6">Universalité de l'accès et suppression des barrières géographiques.</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="p-6 font-bold text-primary bg-surface-container-lowest">Actions Clés</td>
+<td class="p-6">Mise en place de centres de tutorat physiques de proximité.</td>
+<td class="p-6">Optimisation du streaming basse consommation et offline-first.</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="p-6 font-bold text-primary bg-surface-container-lowest">Accompagnement</td>
+<td class="p-6">Sessions de coaching en présentiel 2 fois par mois.</td>
+<td class="p-6">Mentorat digital synchrone et chatbots pédagogiques IA.</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="p-6 font-bold text-primary bg-surface-container-lowest">Résultats Attendus</td>
+<td class="p-6">Taux de rétention élevé par le lien social physique.</td>
+<td class="p-6">Scalabilité maximale et réduction des coûts opérationnels de 40%.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<!-- Strategic Axes: Bento Grid -->
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div>
+<h2 class="font-headline text-3xl font-bold text-primary mb-4">Axes Stratégiques Majeurs</h2>
+<p class="text-on-surface-variant max-w-2xl">L'ABTE concentre ses efforts sur trois piliers fondamentaux pour garantir la réussite du plan 2026-2028.</p>
+</div>
+<div class="hidden md:block">
+<span class="text-xs font-bold uppercase tracking-widest text-outline">Focus Opérationnel</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<!-- Infrastructure -->
+<div class="md:col-span-8 bg-surface-container-highest rounded-3xl overflow-hidden relative min-h-[400px] flex flex-col justify-end p-10 group">
+<img class="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-30 group-hover:scale-105 transition-transform duration-700" data-alt="Futuristic server room with glowing blue LED lights reflecting on polished dark floor, representing high-end digital infrastructure" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2JdT4yzaBBmg4xXB9KT5gVdqfeGid-qQrSDxDM9rAWF-3FWpRUQAVHxBdyvl_ZHo_r--EVBiBKWpjjwIHM9rQiXb-vEt9D6nYeERsTM18OXMQOCahJoIKOHJxYgHhU8eQNgSdd4aG9yvqv-GSDy9DCnYURyYLgeNXnMVUNcuScnX0_oMKscb0tCwDztpBNAxQrNny0abrznCetCankJsFG0wXlg9LDJ2YCyusgpRiCbf5WSBuh_yIdmcfun8NNFkNz_S8IDuvmhI"/>
+<div class="relative z-10">
+<span class="material-symbols-outlined text-primary mb-4 text-4xl">cloud_done</span>
+<h3 class="font-headline text-2xl font-bold text-primary mb-2">Infrastructure Tech Souveraine</h3>
+<p class="text-on-surface-variant max-w-lg mb-6">Mise en place d'un réseau de centres de données locaux pour une latence minimale et une sécurité totale des données des apprenants béninois.</p>
+<div class="flex flex-wrap gap-2">
+<span class="bg-white px-3 py-1 rounded-full text-xs font-semibold text-primary">Data Center National</span>
+<span class="bg-white px-3 py-1 rounded-full text-xs font-semibold text-primary">Cyber-Résilience</span>
+<span class="bg-white px-3 py-1 rounded-full text-xs font-semibold text-primary">Edge Computing</span>
+</div>
+</div>
+</div>
+<!-- Contenu Pédagogique -->
+<div class="md:col-span-4 bg-primary text-white rounded-3xl p-10 flex flex-col justify-between">
+<div>
+<span class="material-symbols-outlined text-secondary-fixed mb-4 text-4xl">import_contacts</span>
+<h3 class="font-headline text-2xl font-bold mb-4">Ingénierie du Contenu</h3>
+<p class="text-blue-100 opacity-80 leading-relaxed mb-6">Digitalisation de 100% du curriculum national avec des modules interactifs, réalité virtuelle et micro-learning.</p>
+</div>
+<ul class="space-y-3 text-sm font-medium">
+<li class="flex items-center gap-2"><span class="w-2 h-2 bg-secondary rounded-full"></span> Gamification des parcours</li>
+<li class="flex items-center gap-2"><span class="w-2 h-2 bg-secondary rounded-full"></span> Vidéos UHD 4K</li>
+<li class="flex items-center gap-2"><span class="w-2 h-2 bg-secondary rounded-full"></span> Labos virtuels</li>
+</ul>
+</div>
+<!-- Accompagnement Humain -->
+<div class="md:col-span-4 bg-white border border-outline-variant rounded-3xl p-10 flex flex-col group">
+<div class="mb-8 overflow-hidden rounded-2xl h-48">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="A diverse group of professional educators in a workshop setting, collaborating over digital tablets in a bright modern office" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDU2lANEQL72FEjlekyNqXwvPKVWq5LTx6YwD1bJbwbLac4_Yex1IAQP6ws4PeWaZBi7LpP47mCDUGkantjX1CpNa2XEoqeajVK7ZkD53OErkzsiltT8f9vuBpXcuEbyD1QkWJAxQ4cKjlm0tDD--G4Q4TkA578QjF-lS_eIZYMJUu39Hr8l4I-Xnu1ik4F7vl7bQ1HnYLBgnUq5rU3OqTigbsfp4NRDtV4PO6sz_zvSYTxnfmAk-0obfEHQyYbV33T2ykCis9HGKA"/>
+</div>
+<h3 class="font-headline text-2xl font-bold text-primary mb-4">Capital Humain</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Formation de 5 000 tuteurs digitaux certifiés pour un encadrement personnalisé, assurant que personne ne soit laissé pour compte.</p>
+</div>
+<!-- Connectivity Stats -->
+<div class="md:col-span-8 bg-gradient-to-r from-secondary to-primary-container text-white rounded-3xl p-10 flex flex-col md:flex-row items-center gap-12">
+<div class="flex-1 text-center md:text-left">
+<h3 class="font-headline text-2xl font-bold mb-2">Connectivité pour Tous</h3>
+<p class="text-blue-100 opacity-80 mb-6">Partenariats stratégiques pour réduire le coût de la donnée mobile pour les étudiants.</p>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-white/10 rounded-2xl p-4">
+<div class="text-3xl font-black mb-1">98%</div>
+<div class="text-[10px] uppercase tracking-tighter opacity-70">Couverture Territoriale</div>
+</div>
+<div class="bg-white/10 rounded-2xl p-4">
+<div class="text-3xl font-black mb-1">-60%</div>
+<div class="text-[10px] uppercase tracking-tighter opacity-70">Coût Data Étudiant</div>
+</div>
+</div>
+</div>
+<div class="hidden md:block w-px h-32 bg-white/20"></div>
+<div class="flex-none text-center">
+<span class="material-symbols-outlined text-6xl mb-2">signal_cellular_alt</span>
+<div class="font-headline font-bold">Plan Accès Rural</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Documentation Download -->
+<section class="py-24 bg-surface-container-low border-y border-outline-variant">
+<div class="max-w-7xl mx-auto px-8">
+<div class="bg-white rounded-[2rem] p-12 shadow-xl flex flex-col md:flex-row items-center gap-12 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-64 h-64 bg-secondary/5 rounded-full -translate-y-1/2 translate-x-1/2"></div>
+<div class="relative z-10 bg-surface-container p-8 rounded-3xl">
+<span class="material-symbols-outlined text-primary text-6xl">picture_as_pdf</span>
+</div>
+<div class="flex-1 text-center md:text-left relative z-10">
+<h2 class="font-headline text-3xl font-bold text-primary mb-4">Prêt à approfondir ?</h2>
+<p class="text-on-surface-variant text-lg mb-8 max-w-2xl">Téléchargez le document complet de la Stratégie 2026-2028 incluant les annexes techniques, le budget prévisionnel et les indicateurs de performance détaillés.</p>
+<div class="flex flex-wrap justify-center md:justify-start gap-4">
+<button class="bg-primary text-on-primary px-8 py-4 rounded-xl font-bold flex items-center gap-3 hover:bg-primary-container transition-all shadow-lg shadow-primary/20">
+<span class="material-symbols-outlined">file_download</span>
+                                Stratégie_ABTE_2026-2028.pdf (12.4 MB)
+                            </button>
+<button class="border border-outline text-primary px-8 py-4 rounded-xl font-bold hover:bg-surface-container transition-all">
+                                Consulter en ligne
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#001d59] text-white w-full mt-auto">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 py-16 max-w-7xl mx-auto font-['Inter'] text-sm leading-relaxed">
+<div class="space-y-6">
+<div class="text-2xl font-black text-white">ABTE</div>
+<p class="text-slate-300">L'excellence de l'enseignement à distance pour bâtir le Bénin de demain.</p>
+<div class="flex space-x-4">
+<span class="material-symbols-outlined cursor-pointer hover:text-secondary-fixed transition-colors">public</span>
+<span class="material-symbols-outlined cursor-pointer hover:text-secondary-fixed transition-colors">hub</span>
+<span class="material-symbols-outlined cursor-pointer hover:text-secondary-fixed transition-colors">share</span>
+</div>
+</div>
+<div>
+<h4 class="font-bold mb-6 text-white uppercase tracking-widest text-xs">Navigation</h4>
+<ul class="space-y-4">
+<li><a class="text-slate-300 hover:text-white transition-colors" href="mentions_l_gales_abte_benin.html">Mentions Légales</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors" href="accueil_abte_benin.html">Plan du site</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors" href="contact_abte_benin.html">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-6 text-white uppercase tracking-widest text-xs">Réseaux</h4>
+<ul class="space-y-4">
+<li><a class="text-slate-300 hover:text-white transition-colors" href="#">LinkedIn</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors" href="#">X (Twitter)</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors" href="#">Facebook</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-6 text-white uppercase tracking-widest text-xs">Newsletter</h4>
+<p class="text-slate-300 mb-4">Restez informé de nos avancées stratégiques.</p>
+<div class="flex rounded-lg overflow-hidden">
+<input class="bg-slate-800 border-none text-white px-4 py-2 w-full focus:ring-1 focus:ring-secondary" placeholder="Votre email" type="email"/>
+<button class="bg-secondary px-4 py-2 hover:bg-secondary-container transition-colors">
+<span class="material-symbols-outlined">send</span>
+</button>
+</div>
+</div>
+</div>
+<div class="border-t border-white/10 py-8 text-center text-slate-400 text-xs">
+            © 2024 Agence Béninoise de Télé-Enseignement (ABTE). Tous droits réservés.
+        </div>
+</footer>
+</body></html>

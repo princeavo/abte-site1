@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gouvernance - ABTE</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700;800;900&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "tertiary-container": "#004118",
+              "outline": "#747683",
+              "on-primary-fixed-variant": "#1c4197",
+              "error-container": "#ffdad6",
+              "on-surface-variant": "#444652",
+              "on-primary": "#ffffff",
+              "surface-bright": "#f7fafc",
+              "on-error": "#ffffff",
+              "on-secondary-fixed-variant": "#004c68",
+              "surface-dim": "#d7dadc",
+              "on-tertiary-fixed-variant": "#005321",
+              "surface-variant": "#e0e3e5",
+              "surface-container-lowest": "#ffffff",
+              "on-tertiary-fixed": "#002109",
+              "on-primary-fixed": "#00174b",
+              "on-tertiary": "#ffffff",
+              "on-surface": "#181c1e",
+              "surface": "#f7fafc",
+              "surface-container-low": "#f1f4f6",
+              "secondary-fixed-dim": "#78d1ff",
+              "outline-variant": "#c4c6d4",
+              "on-background": "#181c1e",
+              "tertiary-fixed-dim": "#63df7f",
+              "primary": "#001d59",
+              "inverse-surface": "#2d3133",
+              "tertiary": "#00290d",
+              "primary-container": "#003087",
+              "primary-fixed": "#dbe1ff",
+              "background": "#f7fafc",
+              "on-tertiary-container": "#37b75d",
+              "on-secondary": "#ffffff",
+              "inverse-on-surface": "#eef1f3",
+              "secondary": "#006689",
+              "surface-tint": "#3959b0",
+              "tertiary-fixed": "#80fc98",
+              "on-primary-container": "#7f9df8",
+              "surface-container-high": "#e5e9eb",
+              "inverse-primary": "#b4c5ff",
+              "error": "#ba1a1a",
+              "surface-container": "#ebeef0",
+              "on-secondary-container": "#00516e",
+              "on-secondary-fixed": "#001e2c",
+              "primary-fixed-dim": "#b4c5ff",
+              "secondary-fixed": "#c3e8ff",
+              "secondary-container": "#4ec7ff",
+              "surface-container-highest": "#e0e3e5",
+              "on-error-container": "#93000a"
+            },
+            fontFamily: {
+              "headline": ["Epilogue"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-card {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(12px);
+      }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface">
+<!-- TopAppBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-md shadow-sm">
+<div class="flex justify-between items-center w-full px-8 py-4 max-w-7xl mx-auto">
+<div class="text-xl font-bold tracking-tighter text-[#001d59] font-headline">ABTE</div>
+<div class="hidden md:flex items-center gap-8 font-headline font-medium text-sm tracking-tight">
+<a class="text-slate-600 hover:text-[#001d59] transition-colors" href="accueil_abte_benin.html">Accueil</a>
+<a class="text-slate-600 hover:text-[#001d59] transition-colors" href="propos_abte_benin.html">À propos</a>
+<a class="text-slate-600 hover:text-[#001d59] transition-colors" href="strat_gie_2026_2028_abte_benin.html">Stratégie</a>
+<a class="text-slate-600 hover:text-[#001d59] transition-colors" href="nos_projets_abte_benin.html">Projets</a>
+<a class="text-slate-600 hover:text-[#001d59] transition-colors" href="exp_riences_enseignements_abte_benin.html">Expériences</a>
+<a class="text-[#006689] font-bold border-b-2 border-[#006689] pb-1" href="gouvernance_abte_benin.html">Gouvernance</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 hover:bg-slate-100/50 rounded-lg transition-all active:scale-95">
+<span class="material-symbols-outlined text-slate-600">dark_mode</span>
+</button>
+<button class="bg-primary text-on-primary px-6 py-2.5 rounded-xl font-headline font-medium text-sm transition-all hover:bg-primary-container active:scale-95">
+                    Accéder à la plateforme
+                </button>
+</div>
+</div>
+</nav>
+<main class="pt-24 pb-20">
+<!-- Hero Section -->
+<header class="max-w-7xl mx-auto px-8 py-16">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-8 border-b border-outline-variant/30 pb-12">
+<div class="max-w-2xl">
+<span class="text-secondary font-headline font-bold tracking-widest text-xs uppercase">Transparence &amp; Performance</span>
+<h1 class="text-5xl md:text-6xl font-headline font-extrabold text-primary mt-4 tracking-tight leading-none">
+                        Gouvernance <br/>Numérique
+                    </h1>
+<p class="text-on-surface-variant mt-6 text-lg leading-relaxed font-light">
+                        Le pilotage stratégique de l'ABTE repose sur une analyse rigoureuse des données en temps réel pour garantir l'efficacité de la transformation éducative au Bénin.
+                    </p>
+</div>
+<div class="flex gap-4">
+<div class="bg-surface-container-low p-4 rounded-xl flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-tertiary-container/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-on-tertiary-container" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<div>
+<p class="text-[10px] uppercase font-bold tracking-tighter text-on-surface-variant">Statut Opérationnel</p>
+<p class="font-headline font-bold text-primary">100% Intègre</p>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- KPIs Dashboard -->
+<section class="max-w-7xl mx-auto px-8 mb-24">
+<div class="flex items-center justify-between mb-8">
+<h2 class="text-2xl font-headline font-bold text-primary">Indicateurs de suivi (KPIs)</h2>
+<div class="flex gap-2">
+<span class="px-3 py-1 bg-surface-container-high rounded-full text-xs font-bold text-on-surface-variant">Q4 2024</span>
+<span class="px-3 py-1 bg-tertiary-container/10 rounded-full text-xs font-bold text-on-tertiary-container">Live</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+<!-- KPI 1 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-outline-variant/10 group hover:shadow-md transition-all">
+<p class="text-on-surface-variant text-xs font-bold uppercase tracking-wider mb-2">Pénétration Numérique</p>
+<div class="flex items-baseline gap-2">
+<span class="text-4xl font-headline font-black text-primary">74.2%</span>
+<span class="text-on-tertiary-container text-xs font-bold flex items-center gap-0.5">
+<span class="material-symbols-outlined text-sm">trending_up</span>+5.4
+                        </span>
+</div>
+<div class="mt-6 h-1 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-secondary w-[74%]"></div>
+</div>
+<p class="text-on-surface-variant/60 text-[10px] mt-4 font-medium italic">Cible 2025: 85%</p>
+</div>
+<!-- KPI 2 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-outline-variant/10 group hover:shadow-md transition-all">
+<p class="text-on-surface-variant text-xs font-bold uppercase tracking-wider mb-2">Cours Digitalisés</p>
+<div class="flex items-baseline gap-2">
+<span class="text-4xl font-headline font-black text-primary">1,420</span>
+<span class="text-on-tertiary-container text-xs font-bold flex items-center gap-0.5">
+<span class="material-symbols-outlined text-sm">trending_up</span>+120
+                        </span>
+</div>
+<div class="mt-6 h-1 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-on-tertiary-container w-[65%]"></div>
+</div>
+<p class="text-on-surface-variant/60 text-[10px] mt-4 font-medium italic">Production mensuelle moyenne</p>
+</div>
+<!-- KPI 3 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-outline-variant/10 group hover:shadow-md transition-all">
+<p class="text-on-surface-variant text-xs font-bold uppercase tracking-wider mb-2">Apprenants Actifs</p>
+<div class="flex items-baseline gap-2">
+<span class="text-4xl font-headline font-black text-primary">285k</span>
+<span class="text-on-tertiary-container text-xs font-bold flex items-center gap-0.5">
+<span class="material-symbols-outlined text-sm">trending_up</span>12%
+                        </span>
+</div>
+<div class="mt-6 flex gap-1 items-end h-8">
+<div class="flex-1 bg-surface-container-high h-2 rounded-t"></div>
+<div class="flex-1 bg-surface-container-high h-4 rounded-t"></div>
+<div class="flex-1 bg-surface-container-high h-3 rounded-t"></div>
+<div class="flex-1 bg-secondary h-6 rounded-t"></div>
+<div class="flex-1 bg-primary h-8 rounded-t"></div>
+</div>
+<p class="text-on-surface-variant/60 text-[10px] mt-4 font-medium italic">Utilisateurs hebdomadaires</p>
+</div>
+<!-- KPI 4 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-outline-variant/10 group hover:shadow-md transition-all">
+<p class="text-on-surface-variant text-xs font-bold uppercase tracking-wider mb-2">Satisfaction Usagers</p>
+<div class="flex items-baseline gap-2">
+<span class="text-4xl font-headline font-black text-primary">4.8/5</span>
+<span class="material-symbols-outlined text-on-tertiary-fixed-variant text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<div class="mt-6 flex justify-between text-on-surface-variant/40">
+<span class="material-symbols-outlined text-xl" style="font-variation-settings: 'FILL' 1;">sentiment_very_satisfied</span>
+<span class="material-symbols-outlined text-xl" style="font-variation-settings: 'FILL' 1;">sentiment_satisfied</span>
+<span class="material-symbols-outlined text-xl" style="font-variation-settings: 'FILL' 0;">sentiment_neutral</span>
+<span class="material-symbols-outlined text-xl" style="font-variation-settings: 'FILL' 0;">sentiment_dissatisfied</span>
+</div>
+<p class="text-on-surface-variant/60 text-[10px] mt-4 font-medium italic">Basé sur 12,000 retours</p>
+</div>
+</div>
+</section>
+<!-- Pilotage Tools (Bento Style) -->
+<section class="bg-surface-container-low py-24">
+<div class="max-w-7xl mx-auto px-8">
+<div class="mb-12">
+<h2 class="text-3xl font-headline font-bold text-primary">Outils de Pilotage Digital</h2>
+<p class="text-on-surface-variant mt-2 max-w-xl">L'ABTE utilise une suite d'outils analytiques propriétaires pour assurer une transparence totale envers les parties prenantes.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 h-auto md:h-[500px]">
+<!-- Large Feature Card -->
+<div class="md:col-span-7 bg-primary rounded-2xl overflow-hidden relative group">
+<div class="absolute inset-0 opacity-40 mix-blend-overlay">
+<img alt="Dashboard analytics visual" class="w-full h-full object-cover" data-alt="close-up of complex digital data visualization dashboard with glowing blue and white lines on dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcTS_I-8C8LauNS2_6iOVOrIoMLnsMbY-audaPsDbZHI683if1t1FlH9UDJGrxGNdV4OSgzlJO_S2owSyvHSTk7RnE5XEQVSrdUf7oLQKyEG_LHgkMHhC0tyLHXXdAEYOg3CSGaMRFbUNs_YBSAvXZK94SspFkeVwoPoIlbeUBXOkqWgS_p9SbU1bRqowgXVyB4vRvVnT45DyaUZtoLMntLaT6GJ0zL274VhugcUmQN9JeAU6q1fZew44UrTNzeOQF-xcXypbeP-8"/>
+</div>
+<div class="relative h-full p-10 flex flex-col justify-end bg-gradient-to-t from-primary via-primary/40 to-transparent">
+<div class="w-12 h-12 bg-white/20 backdrop-blur-xl rounded-lg flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-white">monitoring</span>
+</div>
+<h3 class="text-2xl font-headline font-bold text-white">Plateforme IMPACT-Data</h3>
+<p class="text-blue-100/80 mt-2 max-w-md">Visualisation granulaire de l'utilisation des contenus pédagogiques sur l'ensemble du territoire national.</p>
+<button class="mt-8 text-white flex items-center gap-2 font-bold text-sm group-hover:gap-4 transition-all">
+                                Explorer l'outil <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Side Grid -->
+<div class="md:col-span-5 grid grid-rows-2 gap-6">
+<div class="bg-surface-container-lowest p-8 rounded-2xl flex flex-col justify-center border border-outline-variant/20 shadow-sm">
+<div class="flex items-start gap-4">
+<div class="p-3 bg-secondary/10 rounded-xl">
+<span class="material-symbols-outlined text-secondary">security</span>
+</div>
+<div>
+<h4 class="font-headline font-bold text-primary">Blockchain Compliance</h4>
+<p class="text-sm text-on-surface-variant mt-1">Certification immuable des parcours de formation et des diplômes numériques.</p>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-2xl flex flex-col justify-center border border-outline-variant/20 shadow-sm">
+<div class="flex items-start gap-4">
+<div class="p-3 bg-on-tertiary-container/10 rounded-xl">
+<span class="material-symbols-outlined text-on-tertiary-container">hub</span>
+</div>
+<div>
+<h4 class="font-headline font-bold text-primary">E-Procurement Portal</h4>
+<p class="text-sm text-on-surface-variant mt-1">Gestion transparente des appels d'offres et des ressources de l'agence.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Organizational Structure (Abstract/Minimalist) -->
+<section class="max-w-7xl mx-auto px-8 py-24">
+<div class="text-center mb-16">
+<h2 class="text-3xl font-headline font-bold text-primary">Structure de Pilotage</h2>
+<p class="text-on-surface-variant mt-2">Un modèle de gouvernance agile et interconnecté.</p>
+</div>
+<div class="relative py-12">
+<!-- Visual Connection Lines (Abstract) -->
+<div class="absolute inset-0 flex items-center justify-center opacity-10 pointer-events-none">
+<svg fill="none" height="100%" viewbox="0 0 800 400" width="100%" xmlns="http://www.w3.org/2000/svg">
+<path class="text-primary" d="M400 50V350M400 200H100V300M400 200H700V300" stroke="currentColor" stroke-dasharray="8 8" stroke-width="2"></path>
+</svg>
+</div>
+<div class="relative grid grid-cols-1 md:grid-cols-3 gap-12 max-w-5xl mx-auto">
+<!-- High Level -->
+<div class="md:col-start-2">
+<div class="bg-primary text-white p-6 rounded-2xl text-center shadow-xl transform hover:-translate-y-1 transition-transform">
+<div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4 border border-white/20">
+<span class="material-symbols-outlined text-3xl">account_balance</span>
+</div>
+<h4 class="font-headline font-bold">Conseil d'Administration</h4>
+<p class="text-xs text-blue-100/60 mt-1 uppercase tracking-tighter">Orientation Stratégique</p>
+</div>
+</div>
+<!-- Mid Level -->
+<div class="md:col-start-1 md:row-start-2">
+<div class="bg-surface-container-highest p-6 rounded-2xl text-center border border-outline-variant/30 transform hover:-translate-y-1 transition-transform">
+<h4 class="font-headline font-bold text-primary">Direction Technique</h4>
+<p class="text-xs text-on-surface-variant mt-1 uppercase tracking-tighter">Opérations &amp; IT</p>
+<div class="mt-4 flex -space-x-2 justify-center">
+<div class="w-8 h-8 rounded-full border-2 border-white bg-slate-300"></div>
+<div class="w-8 h-8 rounded-full border-2 border-white bg-slate-400"></div>
+<div class="w-8 h-8 rounded-full border-2 border-white bg-slate-500"></div>
+</div>
+</div>
+</div>
+<div class="md:col-start-2 md:row-start-2">
+<div class="bg-surface-container-highest p-6 rounded-2xl text-center border border-outline-variant/30 transform hover:-translate-y-1 transition-transform">
+<h4 class="font-headline font-bold text-primary">Direction Générale</h4>
+<p class="text-xs text-on-surface-variant mt-1 uppercase tracking-tighter">Management Exécutif</p>
+<div class="mt-4 flex -space-x-2 justify-center">
+<div class="w-8 h-8 rounded-full border-2 border-white bg-slate-300"></div>
+</div>
+</div>
+</div>
+<div class="md:col-start-3 md:row-start-2">
+<div class="bg-surface-container-highest p-6 rounded-2xl text-center border border-outline-variant/30 transform hover:-translate-y-1 transition-transform">
+<h4 class="font-headline font-bold text-primary">Direction Financière</h4>
+<p class="text-xs text-on-surface-variant mt-1 uppercase tracking-tighter">Gestion &amp; Audit</p>
+<div class="mt-4 flex -space-x-2 justify-center">
+<div class="w-8 h-8 rounded-full border-2 border-white bg-slate-300"></div>
+<div class="w-8 h-8 rounded-full border-2 border-white bg-slate-400"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Platform Access CTA -->
+<section class="max-w-7xl mx-auto px-8 mb-24">
+<div class="bg-gradient-to-br from-primary-container to-primary rounded-3xl p-12 text-center text-white overflow-hidden relative">
+<div class="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full -mr-32 -mt-32"></div>
+<div class="absolute bottom-0 left-0 w-48 h-48 bg-secondary/10 rounded-full -ml-24 -mb-24"></div>
+<h2 class="text-3xl md:text-4xl font-headline font-extrabold mb-4">Prêt à explorer nos données ?</h2>
+<p class="text-blue-100 max-w-2xl mx-auto mb-10">L'accès complet aux dashboards de pilotage est réservé aux partenaires institutionnels et aux administrateurs de l'ABTE.</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<button class="bg-white text-primary px-8 py-4 rounded-xl font-headline font-bold shadow-lg hover:shadow-xl transition-all">
+                        Demander un accès partenaire
+                    </button>
+<button class="bg-transparent border border-white/30 backdrop-blur-md px-8 py-4 rounded-xl font-headline font-bold hover:bg-white/10 transition-all">
+                        Consulter le rapport annuel
+                    </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#001d59] text-white">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 py-16 max-w-7xl mx-auto font-body text-sm leading-relaxed">
+<div class="md:col-span-1">
+<div class="text-2xl font-black text-white mb-6">ABTE</div>
+<p class="text-slate-300 mb-6">L'Agence Béninoise de Télé-Enseignement œuvre pour l'excellence éducative par l'innovation numérique.</p>
+<div class="flex gap-4">
+<a class="text-slate-300 hover:text-white transition-colors" href="#"><span class="material-symbols-outlined">share</span></a>
+<a class="text-slate-300 hover:text-white transition-colors" href="#"><span class="material-symbols-outlined">mail</span></a>
+</div>
+</div>
+<div>
+<h5 class="font-headline font-bold text-white mb-6">Navigation</h5>
+<ul class="space-y-4">
+<li><a class="text-slate-300 hover:text-white transition-colors" href="accueil_abte_benin.html">Accueil</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors" href="strat_gie_2026_2028_abte_benin.html">Stratégie</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors" href="nos_projets_abte_benin.html">Projets</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors" href="#">Plateforme</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-headline font-bold text-white mb-6">Ressources</h5>
+<ul class="space-y-4">
+<li><a class="text-slate-300 hover:text-white transition-colors" href="accueil_abte_benin.html">Plan du site</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors" href="mentions_l_gales_abte_benin.html">Mentions Légales</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors" href="#">Confidentialité</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors" href="contact_abte_benin.html">Contact</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-headline font-bold text-white mb-6">Suivez-nous</h5>
+<ul class="space-y-4">
+<li><a class="text-slate-300 hover:text-white transition-colors" href="#">LinkedIn</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors" href="#">X (Twitter)</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors" href="#">Facebook</a></li>
+</ul>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 py-8 border-t border-white/10 text-center text-xs text-slate-400">
+            © 2024 Agence Béninoise de Télé-Enseignement (ABTE). Tous droits réservés.
+        </div>
+</footer>
+</body></html>

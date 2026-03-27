@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700;800;900&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "tertiary-container": "#004118",
+              "outline": "#747683",
+              "on-primary-fixed-variant": "#1c4197",
+              "error-container": "#ffdad6",
+              "on-surface-variant": "#444652",
+              "on-primary": "#ffffff",
+              "surface-bright": "#f7fafc",
+              "on-error": "#ffffff",
+              "on-secondary-fixed-variant": "#004c68",
+              "surface-dim": "#d7dadc",
+              "on-tertiary-fixed-variant": "#005321",
+              "surface-variant": "#e0e3e5",
+              "surface-container-lowest": "#ffffff",
+              "on-tertiary-fixed": "#002109",
+              "on-primary-fixed": "#00174b",
+              "on-tertiary": "#ffffff",
+              "on-surface": "#181c1e",
+              "surface": "#f7fafc",
+              "surface-container-low": "#f1f4f6",
+              "secondary-fixed-dim": "#78d1ff",
+              "outline-variant": "#c4c6d4",
+              "on-background": "#181c1e",
+              "tertiary-fixed-dim": "#63df7f",
+              "primary": "#001d59",
+              "inverse-surface": "#2d3133",
+              "tertiary": "#00290d",
+              "primary-container": "#003087",
+              "primary-fixed": "#dbe1ff",
+              "background": "#f7fafc",
+              "on-tertiary-container": "#37b75d",
+              "on-secondary": "#ffffff",
+              "inverse-on-surface": "#eef1f3",
+              "secondary": "#006689",
+              "surface-tint": "#3959b0",
+              "tertiary-fixed": "#80fc98",
+              "on-primary-container": "#7f9df8",
+              "surface-container-high": "#e5e9eb",
+              "inverse-primary": "#b4c5ff",
+              "error": "#ba1a1a",
+              "surface-container": "#ebeef0",
+              "on-secondary-container": "#00516e",
+              "on-secondary-fixed": "#001e2c",
+              "primary-fixed-dim": "#b4c5ff",
+              "secondary-fixed": "#c3e8ff",
+              "secondary-container": "#4ec7ff",
+              "surface-container-highest": "#e0e3e5",
+              "on-error-container": "#93000a"
+            },
+            fontFamily: {
+              "headline": ["Epilogue"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .glass-nav { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(12px); }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .hero-gradient { background: linear-gradient(135deg, #003087 0%, #001d59 100%); }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface selection:bg-secondary/30">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 shadow-sm glass-nav">
+<div class="flex justify-between items-center w-full px-8 py-4 max-w-7xl mx-auto">
+<div class="text-xl font-bold tracking-tighter text-[#001d59] font-headline">ABTE</div>
+<nav class="hidden md:flex items-center space-x-8 font-headline font-medium text-sm tracking-tight">
+<a class="text-slate-600 hover:text-[#001d59] transition-colors" href="accueil_abte_benin.html">Accueil</a>
+<a class="text-[#006689] font-bold border-b-2 border-[#006689] pb-1" href="propos_abte_benin.html">À propos</a>
+<a class="text-slate-600 hover:text-[#001d59] transition-colors" href="strat_gie_2026_2028_abte_benin.html">Stratégie</a>
+<a class="text-slate-600 hover:text-[#001d59] transition-colors" href="nos_projets_abte_benin.html">Projets</a>
+<a class="text-slate-600 hover:text-[#001d59] transition-colors" href="exp_riences_enseignements_abte_benin.html">Expériences</a>
+<a class="text-slate-600 hover:text-[#001d59] transition-colors" href="gouvernance_abte_benin.html">Gouvernance</a>
+</nav>
+<div class="flex items-center space-x-6">
+<button class="p-2 text-slate-600 hover:bg-slate-100/50 rounded-lg transition-all">
+<span class="material-symbols-outlined">dark_mode</span>
+</button>
+<button class="bg-primary text-on-primary px-5 py-2.5 rounded-xl text-sm font-medium hover:bg-primary-container transition-all active:scale-95 duration-150">
+                    Accéder à la plateforme
+                </button>
+</div>
+</div>
+</header>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="hero-gradient py-24 px-8 text-white">
+<div class="max-w-7xl mx-auto flex flex-col items-start gap-4">
+<div class="flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-xs font-bold uppercase tracking-widest text-secondary-fixed">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed"></span>
+                    Institutionnel
+                </div>
+<h1 class="text-4xl md:text-5xl font-headline font-extrabold tracking-tight max-w-3xl leading-tight">
+                    Bâtir l'avenir numérique de l'enseignement supérieur béninois.
+                </h1>
+<p class="text-lg text-on-primary-container max-w-2xl font-light leading-relaxed">
+                    Découvrez l'agence qui transforme l'accès au savoir et catalyse l'innovation pédagogique à l'échelle nationale.
+                </p>
+</div>
+</section>
+<!-- Introduction Section -->
+<section class="py-24 px-8 bg-surface">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+<div class="lg:col-span-7 space-y-8">
+<div class="space-y-4">
+<h2 class="text-3xl font-headline font-bold text-primary">Un héritage de transformation</h2>
+<div class="w-16 h-1 bg-secondary"></div>
+</div>
+<div class="space-y-6 text-on-surface-variant leading-relaxed text-lg">
+<p>
+                            L'Agence Béninoise de Télé-Enseignement (ABTE) est née d'une volonté politique forte de moderniser le système éducatif du Bénin. Face aux défis croissants de massification des effectifs étudiants et à la nécessité d'une formation continue adaptée au marché de l'emploi, l'État béninois a structuré cet outil stratégique.
+                        </p>
+<p>
+                            Inscrite au cœur du Programme d'Action du Gouvernement (PAG), l'ABTE ne se substitue pas aux universités thématiques. Elle intervient comme l'architecte technique et organisationnel d'un écosystème numérique unifié, permettant d'abolir les distances géographiques et sociales.
+                        </p>
+</div>
+<div class="grid grid-cols-2 gap-8 pt-8">
+<div>
+<span class="block text-4xl font-headline font-black text-secondary">2024</span>
+<span class="text-sm font-medium text-slate-500 uppercase tracking-tighter">Année charnière</span>
+</div>
+<div>
+<span class="block text-4xl font-headline font-black text-secondary">77+</span>
+<span class="text-sm font-medium text-slate-500 uppercase tracking-tighter">Communes connectées</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="aspect-square rounded-2xl overflow-hidden shadow-2xl rotate-3 bg-surface-container-high p-4">
+<img alt="Digital education" class="w-full h-full object-cover rounded-xl" data-alt="Modern university campus building with glass facade reflecting a clear blue sky, symbolize academic excellence and innovation in Benin" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBX9ELfOqPvoa9psTl-3gMAenfaukP0-7zFYJXgweBBXtU6AXmQq3yxpzv78rXBs1WxUmz4IaadV5Q_kDrTSaUs5hxsezT5jxksk6tOQm_tqcE95hcYmTKGVqORPsHXdZytYy3ljnwoHBiXjRcJCOlq0_GGfL6zSUBwA_2ahVMvJQ8Zi-zNf0LXsmYxUeilsDYS0VQP6toCzGeaO-39axLkQsRxkJvg84SMap6hcgnVQa20Y0X-pYKmJyI5SHx3RH7N9nTeHjF5QZ4"/>
+</div>
+<div class="absolute -bottom-8 -left-8 bg-white p-8 rounded-2xl shadow-xl max-w-xs -rotate-2 border-l-4 border-secondary">
+<p class="text-sm italic font-medium text-primary">"Le numérique n'est plus une option, c'est le socle de notre souveraineté intellectuelle."</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Mission & Positionnement (HUB Concept) -->
+<section class="py-24 px-8 bg-surface-container-low">
+<div class="max-w-7xl mx-auto text-center mb-16 space-y-4">
+<h2 class="text-3xl font-headline font-bold text-primary">Notre Rôle : Un Catalyseur National</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto italic">
+                    L'ABTE est un HUB, une plateforme tournante au service de l'excellence académique.
+                </p>
+</div>
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest p-10 rounded-2xl shadow-sm space-y-6 group hover:-translate-y-2 transition-transform duration-300">
+<div class="w-14 h-14 rounded-xl bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">hub</span>
+</div>
+<h3 class="text-xl font-headline font-bold text-primary">Interconnexion</h3>
+<p class="text-on-surface-variant leading-relaxed">
+                        Nous relions les universités publiques et privées à une infrastructure de classe mondiale, facilitant le partage de ressources pédagogiques.
+                    </p>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest p-10 rounded-2xl shadow-sm space-y-6 group hover:-translate-y-2 transition-transform duration-300">
+<div class="w-14 h-14 rounded-xl bg-secondary/5 flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">science</span>
+</div>
+<h3 class="text-xl font-headline font-bold text-primary">Incubation</h3>
+<p class="text-on-surface-variant leading-relaxed">
+                        L'ABTE ne crée pas les contenus seule ; elle accompagne les enseignants-chercheurs dans la digitalisation de leurs savoirs experts.
+                    </p>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest p-10 rounded-2xl shadow-sm space-y-6 group hover:-translate-y-2 transition-transform duration-300">
+<div class="w-14 h-14 rounded-xl bg-tertiary-container/5 flex items-center justify-center text-tertiary-container group-hover:bg-tertiary-container group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">standard_cluster</span>
+</div>
+<h3 class="text-xl font-headline font-bold text-primary">Standardisation</h3>
+<p class="text-on-surface-variant leading-relaxed">
+                        Nous garantissons la qualité des diplômes à distance à travers des protocoles de certification et d'évaluation rigoureux.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Structure Organisationnelle (Asymmetric Bento) -->
+<section class="py-24 px-8 bg-surface">
+<div class="max-w-7xl mx-auto">
+<div class="flex justify-between items-end mb-16 gap-8">
+<div class="space-y-4">
+<h2 class="text-3xl font-headline font-bold text-primary">Architecture Opérationnelle</h2>
+<p class="text-on-surface-variant max-w-xl">Une organisation agile centrée sur l'utilisateur final et l'innovation technologique.</p>
+</div>
+<div class="hidden md:block">
+<span class="material-symbols-outlined text-6xl text-surface-container-high">account_tree</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-4 h-auto md:h-[600px]">
+<div class="md:col-span-2 md:row-span-2 bg-primary rounded-3xl p-12 text-white flex flex-col justify-between relative overflow-hidden group">
+<div class="z-10 space-y-4">
+<h4 class="text-xs font-bold uppercase tracking-widest text-secondary-container">Gouvernance Stratégique</h4>
+<h3 class="text-3xl font-headline font-bold">Conseil d'Administration</h3>
+<p class="text-on-primary-container text-lg">Organe de décision regroupant les ministères de tutelle et les experts du numérique pour définir les grandes orientations de l'agence.</p>
+</div>
+<div class="z-10 mt-8">
+<ul class="space-y-3">
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary-container">check_circle</span> Audit de conformité</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary-container">check_circle</span> Validation des budgets</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary-container">check_circle</span> Stratégie de croissance</li>
+</ul>
+</div>
+<div class="absolute -bottom-10 -right-10 opacity-10 group-hover:scale-110 transition-transform duration-700">
+<span class="material-symbols-outlined text-[300px]">policy</span>
+</div>
+</div>
+<div class="md:col-span-2 bg-surface-container-high rounded-3xl p-10 flex flex-col justify-center space-y-4">
+<div class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-primary">dns</span>
+</div>
+<h4 class="font-headline font-bold text-xl text-primary">Direction Technique &amp; Cloud</h4>
+<p class="text-on-surface-variant">Maintenance des serveurs, hébergement des LMS et sécurité des données nationales.</p>
+</div>
+<div class="bg-secondary text-white rounded-3xl p-8 flex flex-col justify-end">
+<span class="material-symbols-outlined text-4xl mb-4">school</span>
+<h4 class="font-headline font-bold text-lg leading-tight">Pôle Innovation Pédagogique</h4>
+</div>
+<div class="bg-tertiary-container text-white rounded-3xl p-8 flex flex-col justify-end">
+<span class="material-symbols-outlined text-4xl mb-4">partner_exchange</span>
+<h4 class="font-headline font-bold text-lg leading-tight">Coopération Internationale</h4>
+</div>
+</div>
+</div>
+</section>
+<!-- Mot du Directeur -->
+<section class="py-24 px-8 bg-surface-container-low overflow-hidden relative">
+<div class="absolute top-0 right-0 w-1/3 h-full bg-primary/5 -skew-x-12 transform translate-x-20"></div>
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16 relative z-10">
+<div class="w-full md:w-1/3">
+<div class="relative">
+<div class="aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl grayscale hover:grayscale-0 transition-all duration-500">
+<img alt="Director ABTE" class="w-full h-full object-cover" data-alt="Professional portrait of a confident West African male leader in a navy blue suit, standing in a brightly lit modern office setting, looking at the camera with a slight smile." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2I3a-1wcykUDNn4KIHCHM-0nsdJRYwMlweVxx48P9oN1b50Aljb-OIPgf4li88Rs4SVBUsDPxca9pbqJ_afbrbDT9JjmLciWSQzOydCGzjGJBZMP87yxwjV25-4gspkbOSqPksqjHM7yLgUrswlV8bXEgcTmK67QeV9K8xqwH_iaC8zTkt8Fx7IBil8hFxzyAS2p5o9aRu5ZWdmV2hpZjFI7t9HmzxFz8FEKSvpQ4pB4tWJcLF9FQAv-nVZvklpYCEmxHnlYosJA"/>
+</div>
+<div class="absolute -bottom-6 -right-6 w-32 h-32 bg-secondary rounded-full flex items-center justify-center border-8 border-surface-container-low">
+<span class="material-symbols-outlined text-white text-5xl">format_quote</span>
+</div>
+</div>
+</div>
+<div class="w-full md:w-2/3 space-y-8">
+<div class="space-y-2">
+<h2 class="text-4xl font-headline font-black text-primary">La vision du leadership</h2>
+<p class="text-secondary font-bold uppercase tracking-widest text-sm">Mot du Directeur Général</p>
+</div>
+<blockquote class="text-2xl font-headline font-light text-on-surface leading-relaxed italic">
+                        "L'ABTE n'est pas simplement une agence technique ; c'est le moteur d'une promesse républicaine. Celle d'offrir à chaque citoyen béninois, quel que soit son lieu de résidence, le droit de se former auprès des meilleurs experts, avec les meilleurs outils numériques. Nous bâtissons aujourd'hui le savoir de demain."
+                    </blockquote>
+<div class="pt-4 border-t border-outline-variant/30 inline-block">
+<p class="font-bold text-primary text-xl">Dr. Patrice Houngbo</p>
+<p class="text-on-surface-variant">Directeur Général de l'ABTE</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#001d59] text-white w-full mt-auto">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 py-16 max-w-7xl mx-auto">
+<div class="space-y-6">
+<div class="text-2xl font-black text-white font-headline">ABTE</div>
+<p class="text-slate-300 text-sm leading-relaxed">
+                    L'excellence de l'enseignement supérieur béninois, désormais accessible partout et pour tous.
+                </p>
+</div>
+<div class="space-y-4">
+<h4 class="font-headline font-bold text-lg">Liens utiles</h4>
+<ul class="space-y-2">
+<li><a class="text-slate-300 hover:text-white transition-colors text-sm" href="accueil_abte_benin.html">Plan du site</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors text-sm" href="mentions_l_gales_abte_benin.html">Mentions Légales</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors text-sm" href="accueil_abte_benin.html">Plateforme E-learning</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<h4 class="font-headline font-bold text-lg">Contact</h4>
+<ul class="space-y-2">
+<li class="text-slate-300 text-sm">Cotonou, Bénin</li>
+<li class="text-slate-300 text-sm">contact@abte.bj</li>
+<li><a class="text-slate-300 hover:text-white transition-colors text-sm" href="#">LinkedIn</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<h4 class="font-headline font-bold text-lg">Newsletter</h4>
+<p class="text-slate-300 text-xs">Restez informé de nos derniers projets et avancées numériques.</p>
+<div class="flex gap-2">
+<input class="bg-white/10 border-none rounded-lg px-4 py-2 text-sm w-full focus:ring-1 focus:ring-secondary" placeholder="Email" type="email"/>
+<button class="bg-secondary p-2 rounded-lg hover:opacity-80 transition-opacity">
+<span class="material-symbols-outlined">send</span>
+</button>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 py-6 border-t border-white/10 text-center text-xs text-slate-400">
+            © 2024 Agence Béninoise de Télé-Enseignement (ABTE). Tous droits réservés.
+        </div>
+</footer>
+</body></html>

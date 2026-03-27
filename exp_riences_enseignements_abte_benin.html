@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Expériences &amp; Enseignements - ABTE</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700;800;900&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "tertiary-container": "#004118",
+              "outline": "#747683",
+              "on-primary-fixed-variant": "#1c4197",
+              "error-container": "#ffdad6",
+              "on-surface-variant": "#444652",
+              "on-primary": "#ffffff",
+              "surface-bright": "#f7fafc",
+              "on-error": "#ffffff",
+              "on-secondary-fixed-variant": "#004c68",
+              "surface-dim": "#d7dadc",
+              "on-tertiary-fixed-variant": "#005321",
+              "surface-variant": "#e0e3e5",
+              "surface-container-lowest": "#ffffff",
+              "on-tertiary-fixed": "#002109",
+              "on-primary-fixed": "#00174b",
+              "on-tertiary": "#ffffff",
+              "on-surface": "#181c1e",
+              "surface": "#f7fafc",
+              "surface-container-low": "#f1f4f6",
+              "secondary-fixed-dim": "#78d1ff",
+              "outline-variant": "#c4c6d4",
+              "on-background": "#181c1e",
+              "tertiary-fixed-dim": "#63df7f",
+              "primary": "#001d59",
+              "inverse-surface": "#2d3133",
+              "tertiary": "#00290d",
+              "primary-container": "#003087",
+              "primary-fixed": "#dbe1ff",
+              "background": "#f7fafc",
+              "on-tertiary-container": "#37b75d",
+              "on-secondary": "#ffffff",
+              "inverse-on-surface": "#eef1f3",
+              "secondary": "#006689",
+              "surface-tint": "#3959b0",
+              "tertiary-fixed": "#80fc98",
+              "on-primary-container": "#7f9df8",
+              "surface-container-high": "#e5e9eb",
+              "inverse-primary": "#b4c5ff",
+              "error": "#ba1a1a",
+              "surface-container": "#ebeef0",
+              "on-secondary-container": "#00516e",
+              "on-secondary-fixed": "#001e2c",
+              "primary-fixed-dim": "#b4c5ff",
+              "secondary-fixed": "#c3e8ff",
+              "secondary-container": "#4ec7ff",
+              "surface-container-highest": "#e0e3e5",
+              "on-error-container": "#93000a"
+            },
+            fontFamily: {
+              "headline": ["Epilogue"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-white/70 dark:bg-slate-900/70 backdrop-blur-md shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center w-full px-8 py-4 max-w-7xl mx-auto">
+<div class="text-xl font-bold tracking-tighter text-[#001d59] dark:text-white font-headline">ABTE</div>
+<nav class="hidden md:flex items-center space-x-8 font-headline font-medium text-sm tracking-tight">
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#001d59] dark:hover:text-white transition-colors" href="accueil_abte_benin.html">Accueil</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#001d59] dark:hover:text-white transition-colors" href="propos_abte_benin.html">À propos</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#001d59] dark:hover:text-white transition-colors" href="strat_gie_2026_2028_abte_benin.html">Stratégie</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#001d59] dark:hover:text-white transition-colors" href="nos_projets_abte_benin.html">Projets</a>
+<a class="text-[#006689] dark:text-blue-300 font-bold border-b-2 border-[#006689] pb-1" href="exp_riences_enseignements_abte_benin.html">Expériences</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#001d59] dark:hover:text-white transition-colors" href="gouvernance_abte_benin.html">Gouvernance</a>
+</nav>
+<div class="flex items-center space-x-4">
+<button class="p-2 hover:bg-slate-100/50 dark:hover:bg-slate-800/50 rounded-lg transition-all active:scale-95">
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="dark_mode">dark_mode</span>
+</button>
+<button class="bg-primary text-on-primary px-6 py-2.5 rounded-xl font-headline font-medium text-sm transition-all hover:bg-primary-container active:scale-95">
+                    Accéder à la plateforme
+                </button>
+</div>
+</div>
+</header>
+<main class="pt-24 pb-20">
+<!-- Hero Section -->
+<section class="max-w-7xl mx-auto px-8 py-16">
+<div class="relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-primary-container to-primary p-12 lg:p-20 text-white">
+<div class="relative z-10 max-w-3xl">
+<span class="inline-block px-4 py-1.5 bg-secondary-container/20 backdrop-blur-md rounded-full text-secondary-fixed text-xs font-bold tracking-widest uppercase mb-6">Benchmarks &amp; Perspectives</span>
+<h1 class="text-5xl lg:text-7xl font-headline font-black tracking-tight leading-[1.1] mb-8">Expériences &amp; Enseignements.</h1>
+<p class="text-lg lg:text-xl text-blue-100/80 font-light leading-relaxed mb-0">
+                        Analyse comparative des modèles de télé-enseignement mondiaux et africains pour forger l'excellence béninoise.
+                    </p>
+</div>
+<div class="absolute -right-20 -bottom-20 w-96 h-96 bg-secondary/20 rounded-full blur-[100px]"></div>
+<div class="absolute right-10 top-10 opacity-10">
+<span class="material-symbols-outlined text-[15rem]" data-icon="school">school</span>
+</div>
+</div>
+</section>
+<!-- Benchmarks Comparison Grid -->
+<section class="max-w-7xl mx-auto px-8 py-12">
+<div class="mb-12">
+<h2 class="text-3xl font-headline font-bold text-primary mb-4">Panorama des Modèles de Référence</h2>
+<div class="w-20 h-1.5 bg-secondary rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Open University -->
+<div class="bg-surface-container-low p-8 rounded-[1.5rem] group hover:bg-surface-container-high transition-all duration-300">
+<div class="flex items-center gap-4 mb-6">
+<div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="public">public</span>
+</div>
+<div>
+<h3 class="font-headline font-bold text-lg text-primary">Open University</h3>
+<p class="text-xs text-on-surface-variant font-medium">UK / AFRIQUE</p>
+</div>
+</div>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">
+                        Pionnier mondial de l'enseignement à distance. Modèle basé sur la flexibilité totale et des supports pédagogiques multimédias de haute qualité.
+                    </p>
+<div class="space-y-3">
+<div class="flex items-center gap-2 text-xs font-bold text-tertiary-container">
+<span class="material-symbols-outlined text-sm" data-icon="check_circle">check_circle</span>
+<span>Standardisation des contenus</span>
+</div>
+<div class="flex items-center gap-2 text-xs font-bold text-tertiary-container">
+<span class="material-symbols-outlined text-sm" data-icon="check_circle">check_circle</span>
+<span>Tutorat personnalisé</span>
+</div>
+</div>
+</div>
+<!-- FUN (France) -->
+<div class="bg-surface-container-low p-8 rounded-[1.5rem] group hover:bg-surface-container-high transition-all duration-300">
+<div class="flex items-center gap-4 mb-6">
+<div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center">
+<span class="material-symbols-outlined text-[#001d59] text-3xl" data-icon="flag">flag</span>
+</div>
+<div>
+<h3 class="font-headline font-bold text-lg text-primary">FUN (France)</h3>
+<p class="text-xs text-on-surface-variant font-medium">FRANCE UNIVERSITÉ NUMÉRIQUE</p>
+</div>
+</div>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">
+                        Plateforme nationale de MOOCs. Excellence académique partagée et mutualisation des ressources entre établissements d'enseignement supérieur.
+                    </p>
+<div class="space-y-3">
+<div class="flex items-center gap-2 text-xs font-bold text-tertiary-container">
+<span class="material-symbols-outlined text-sm" data-icon="check_circle">check_circle</span>
+<span>Mutualisation inter-universitaire</span>
+</div>
+<div class="flex items-center gap-2 text-xs font-bold text-tertiary-container">
+<span class="material-symbols-outlined text-sm" data-icon="check_circle">check_circle</span>
+<span>Certification reconnue</span>
+</div>
+</div>
+</div>
+<!-- Rwanda -->
+<div class="bg-surface-container-low p-8 rounded-[1.5rem] group hover:bg-surface-container-high transition-all duration-300">
+<div class="flex items-center gap-4 mb-6">
+<div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center overflow-hidden">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="bolt">bolt</span>
+</div>
+<div>
+<h3 class="font-headline font-bold text-lg text-primary">Rwanda</h3>
+<p class="text-xs text-on-surface-variant font-medium">SMART RWANDA</p>
+</div>
+</div>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">
+                        Transformation numérique accélérée par l'État. Focus sur l'infrastructure et l'intégration du digital dès le cycle primaire.
+                    </p>
+<div class="space-y-3">
+<div class="flex items-center gap-2 text-xs font-bold text-tertiary-container">
+<span class="material-symbols-outlined text-sm" data-icon="check_circle">check_circle</span>
+<span>Infrastructures connectées</span>
+</div>
+<div class="flex items-center gap-2 text-xs font-bold text-tertiary-container">
+<span class="material-symbols-outlined text-sm" data-icon="check_circle">check_circle</span>
+<span>Soutien politique fort</span>
+</div>
+</div>
+</div>
+<!-- Sénégal -->
+<div class="bg-surface-container-low p-8 rounded-[1.5rem] group hover:bg-surface-container-high transition-all duration-300">
+<div class="flex items-center gap-4 mb-6">
+<div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="hub">hub</span>
+</div>
+<div>
+<h3 class="font-headline font-bold text-lg text-primary">Sénégal (UVS)</h3>
+<p class="text-xs text-on-surface-variant font-medium">UNIVERSITÉ VIRTUELLE DU SÉNÉGAL</p>
+</div>
+</div>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">
+                        Modèle de décentralisation via les Espaces Numériques Ouverts (ENO). Proximité physique malgré l'enseignement à distance.
+                    </p>
+<div class="space-y-3">
+<div class="flex items-center gap-2 text-xs font-bold text-tertiary-container">
+<span class="material-symbols-outlined text-sm" data-icon="check_circle">check_circle</span>
+<span>Espaces Numériques Ouverts</span>
+</div>
+<div class="flex items-center gap-2 text-xs font-bold text-tertiary-container">
+<span class="material-symbols-outlined text-sm" data-icon="check_circle">check_circle</span>
+<span>Gouvernance décentralisée</span>
+</div>
+</div>
+</div>
+<!-- Côte d'Ivoire -->
+<div class="bg-surface-container-low p-8 rounded-[1.5rem] group hover:bg-surface-container-high transition-all duration-300">
+<div class="flex items-center gap-4 mb-6">
+<div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="cell_tower">cell_tower</span>
+</div>
+<div>
+<h3 class="font-headline font-bold text-lg text-primary">Côte d'Ivoire</h3>
+<p class="text-xs text-on-surface-variant font-medium">UVCI</p>
+</div>
+</div>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">
+                        Focus sur l'employabilité et les compétences numériques transversales. Utilisation massive du mobile learning.
+                    </p>
+<div class="space-y-3">
+<div class="flex items-center gap-2 text-xs font-bold text-tertiary-container">
+<span class="material-symbols-outlined text-sm" data-icon="check_circle">check_circle</span>
+<span>Mobile Learning (M-Learning)</span>
+</div>
+<div class="flex items-center gap-2 text-xs font-bold text-tertiary-container">
+<span class="material-symbols-outlined text-sm" data-icon="check_circle">check_circle</span>
+<span>Liens avec le secteur privé</span>
+</div>
+</div>
+</div>
+<!-- Strategy Map Background -->
+<div class="relative overflow-hidden bg-white rounded-[1.5rem] flex items-center justify-center">
+<img class="absolute inset-0 w-full h-full object-cover opacity-20" data-alt="conceptual map of the world with digital connections glowing over a dark surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0Bun1TaGxSqT5MgpTF-2lWrMyUMmoeifn34gwHQXD1FA29gJM5jcrDE3bfVHsJ3ph1ddoYhX6ot-Fozk95al1NJrOj5iqH-8YobNT3LZ-gU1O8qOFiD5GDB3pRcadu4jhSUqetVNP9ws4w29V6NDhWVrH5DA2DssWBK03_SQt8B-jzj_VpGfAKgYl_3dYKQjqwAT2ttl8cbZt4qxFMc8mEwkTouVA8DKnzisanK_4WTTQpdB5U7AMit_XXsEfesvsYafyn2ZtqI8"/>
+<div class="relative z-10 text-center p-8">
+<span class="material-symbols-outlined text-secondary text-5xl mb-4" data-icon="analytics">analytics</span>
+<p class="font-headline font-bold text-primary">Analyse Comparative ABTE</p>
+<p class="text-xs text-on-surface-variant mt-2">Mise à jour 2024</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Insights and Quote Section -->
+<section class="max-w-7xl mx-auto px-8 py-20 flex flex-col lg:flex-row gap-16">
+<!-- Left: 5 Key Learnings -->
+<div class="lg:w-3/5">
+<div class="mb-10">
+<h2 class="text-3xl font-headline font-bold text-primary mb-4">5 Principaux Enseignements</h2>
+<p class="text-on-surface-variant">Les piliers stratégiques identifiés pour le succès du télé-enseignement au Bénin.</p>
+</div>
+<div class="space-y-6">
+<!-- Item 1 -->
+<div class="flex gap-6 group">
+<div class="flex-shrink-0 w-12 h-12 rounded-full border-2 border-secondary/20 flex items-center justify-center font-headline font-black text-secondary group-hover:bg-secondary group-hover:text-white transition-all duration-300">01</div>
+<div>
+<h4 class="font-headline font-bold text-primary mb-2">L'Infrastructure est le Prérequis</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Le succès ne dépend pas seulement de la qualité des cours, mais de l'accessibilité réelle : connectivité stable et équipements abordables pour les étudiants.</p>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="flex gap-6 group">
+<div class="flex-shrink-0 w-12 h-12 rounded-full border-2 border-secondary/20 flex items-center justify-center font-headline font-black text-secondary group-hover:bg-secondary group-hover:text-white transition-all duration-300">02</div>
+<div>
+<h4 class="font-headline font-bold text-primary mb-2">La Formation des Formateurs</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Passer de l'amphithéâtre au studio demande une pédagogie spécifique. L'accompagnement des enseignants est le moteur de la transformation.</p>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="flex gap-6 group">
+<div class="flex-shrink-0 w-12 h-12 rounded-full border-2 border-secondary/20 flex items-center justify-center font-headline font-black text-secondary group-hover:bg-secondary group-hover:text-white transition-all duration-300">03</div>
+<div>
+<h4 class="font-headline font-bold text-primary mb-2">Le Tutorat comme Levier de Rétention</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">L'isolement est la première cause d'échec à distance. Un système de mentorat humain est indispensable pour maintenir l'engagement.</p>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="flex gap-6 group">
+<div class="flex-shrink-0 w-12 h-12 rounded-full border-2 border-secondary/20 flex items-center justify-center font-headline font-black text-secondary group-hover:bg-secondary group-hover:text-white transition-all duration-300">04</div>
+<div>
+<h4 class="font-headline font-bold text-primary mb-2">Mutualisation des Ressources</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Inspiré de FUN, le Bénin doit favoriser la création de contenus partagés entre les différentes universités nationales pour optimiser les coûts.</p>
+</div>
+</div>
+<!-- Item 5 -->
+<div class="flex gap-6 group">
+<div class="flex-shrink-0 w-12 h-12 rounded-full border-2 border-secondary/20 flex items-center justify-center font-headline font-black text-secondary group-hover:bg-secondary group-hover:text-white transition-all duration-300">05</div>
+<div>
+<h4 class="font-headline font-bold text-primary mb-2">Adaptation Locale du Contenu</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Utiliser des exemples, des cas d'études et une langue qui résonnent avec le contexte socio-économique béninois pour plus d'impact.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right: Quote Section -->
+<div class="lg:w-2/5">
+<div class="sticky top-32">
+<div class="relative p-12 bg-white rounded-[2rem] shadow-2xl shadow-primary/5 overflow-hidden">
+<div class="absolute top-0 left-0 w-24 h-24 bg-tertiary-fixed/30 rounded-br-[4rem] -z-0"></div>
+<span class="material-symbols-outlined text-secondary text-6xl mb-8 block" data-icon="format_quote">format_quote</span>
+<blockquote class="relative z-10">
+<p class="text-2xl font-headline font-bold text-primary leading-tight mb-8">
+                                "L'éducation à distance n'est pas une éducation de seconde zone, c'est l'avenir d'une éducation inclusive et sans frontières pour la jeunesse africaine."
+                            </p>
+<footer class="flex items-center gap-4">
+<div class="w-14 h-14 rounded-full overflow-hidden border-2 border-white shadow-md">
+<img class="w-full h-full object-cover" data-alt="professional portrait of an african female educator with glasses smiling in a scholarly setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQCqDoGL-0x9_GqqklYqqFEi6S42VMFSnaSa9y8UPNBMaRHzNp-launIHo1alt_2r__hC8XtJG5FmS_ST7ekzrRqmR6Mt_cSo12A4bedpCgXV5nM8zgpQI_ak4Zt9CzKx87sNk41h2gVAcUdBB7zsiXRN3BOjxOFZSGGzpskXAmvW46POK531I3qHLG9GvNgsblWhS0wlc_nS2-yrWWSjNDELixediZwx-64n6QjyRrXTsdevu1fJoTZyFEg-xoTVruuvGqUrkGS4"/>
+</div>
+<div>
+<p class="font-headline font-bold text-primary text-sm uppercase tracking-wider">Dre. Amina Diallo</p>
+<p class="text-xs text-on-surface-variant">Experte en Stratégies EdTech, UA</p>
+</div>
+</footer>
+</blockquote>
+</div>
+<div class="mt-8 p-8 border border-outline-variant rounded-[1.5rem] flex items-start gap-4 bg-surface-container-low/50">
+<span class="material-symbols-outlined text-secondary" data-icon="info">info</span>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+                            Ce benchmark a été réalisé en collaboration avec le Ministère de l'Enseignement Supérieur et de la Recherche Scientifique du Bénin.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#001d59] dark:bg-slate-950 text-white dark:text-slate-200 mt-auto">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 py-16 max-w-7xl mx-auto font-body text-sm leading-relaxed">
+<div class="space-y-6">
+<div class="text-2xl font-black text-white font-headline">ABTE</div>
+<p class="text-slate-300">L'Agence Béninoise de Télé-Enseignement œuvre pour la démocratisation du savoir à travers les technologies numériques de pointe.</p>
+<div class="flex gap-4">
+<a class="text-slate-300 hover:text-white transition-colors" href="#"><span class="material-symbols-outlined" data-icon="share">share</span></a>
+<a class="text-slate-300 hover:text-white transition-colors" href="#"><span class="material-symbols-outlined" data-icon="mail">mail</span></a>
+</div>
+</div>
+<div class="space-y-4">
+<h4 class="font-headline font-bold text-lg">Liens Utiles</h4>
+<ul class="space-y-2">
+<li><a class="text-slate-300 hover:text-white transition-colors" href="accueil_abte_benin.html">Accueil</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors" href="accueil_abte_benin.html">Plan du site</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors" href="mentions_l_gales_abte_benin.html">Mentions Légales</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors" href="contact_abte_benin.html">Contact</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<h4 class="font-headline font-bold text-lg">Réseaux Sociaux</h4>
+<ul class="space-y-2">
+<li><a class="text-slate-300 hover:text-white transition-colors" href="#">LinkedIn</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors" href="#">X</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors" href="#">Facebook</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<h4 class="font-headline font-bold text-lg">Newsletter</h4>
+<p class="text-slate-300 text-xs">Recevez les dernières actualités sur le télé-enseignement au Bénin.</p>
+<div class="flex bg-white/10 rounded-lg p-1">
+<input class="bg-transparent border-none focus:ring-0 text-white text-xs flex-grow px-3" placeholder="votre@email.com" type="email"/>
+<button class="bg-secondary text-white px-4 py-2 rounded-lg text-xs font-bold transition-all hover:bg-secondary-container">OK</button>
+</div>
+</div>
+</div>
+<div class="border-t border-white/10 py-8 px-8 max-w-7xl mx-auto text-center md:text-left">
+<p class="text-slate-400 text-xs">© 2024 Agence Béninoise de Télé-Enseignement (ABTE). Tous droits réservés.</p>
+</div>
+</footer>
+</body></html>

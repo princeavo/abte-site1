@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700;800;900&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container-high": "#e5e9eb",
+              "on-primary": "#ffffff",
+              "surface-container": "#ebeef0",
+              "surface-container-low": "#f1f4f6",
+              "primary-container": "#003087",
+              "outline-variant": "#c4c6d4",
+              "on-secondary-container": "#00516e",
+              "secondary": "#006689",
+              "tertiary-container": "#004118",
+              "on-primary-container": "#7f9df8",
+              "surface-container-lowest": "#ffffff",
+              "tertiary-fixed": "#80fc98",
+              "surface": "#f7fafc",
+              "surface-bright": "#f7fafc",
+              "primary-fixed": "#dbe1ff",
+              "on-tertiary-fixed-variant": "#005321",
+              "surface-container-highest": "#e0e3e5",
+              "error": "#ba1a1a",
+              "surface-dim": "#d7dadc",
+              "on-primary-fixed": "#00174b",
+              "on-secondary-fixed-variant": "#004c68",
+              "tertiary-fixed-dim": "#63df7f",
+              "on-primary-fixed-variant": "#1c4197",
+              "on-background": "#181c1e",
+              "primary": "#001d59",
+              "on-error-container": "#93000a",
+              "on-error": "#ffffff",
+              "surface-variant": "#e0e3e5",
+              "on-secondary-fixed": "#001e2c",
+              "primary-fixed-dim": "#b4c5ff",
+              "surface-tint": "#3959b0",
+              "on-tertiary-container": "#37b75d",
+              "secondary-container": "#4ec7ff",
+              "on-surface-variant": "#444652",
+              "error-container": "#ffdad6",
+              "background": "#f7fafc",
+              "inverse-primary": "#b4c5ff",
+              "inverse-on-surface": "#eef1f3",
+              "on-tertiary": "#ffffff",
+              "secondary-fixed": "#c3e8ff",
+              "on-surface": "#181c1e",
+              "secondary-fixed-dim": "#78d1ff",
+              "on-secondary": "#ffffff",
+              "tertiary": "#00290d",
+              "outline": "#747683",
+              "on-tertiary-fixed": "#002109",
+              "inverse-surface": "#2d3133"
+            },
+            fontFamily: {
+              "headline": ["Epilogue"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      body { font-family: 'Inter', sans-serif; }
+      h1, h2, h3, .font-headline { font-family: 'Epilogue', sans-serif; }
+      .glass-nav {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(12px);
+      }
+    </style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- Top Navigation Shell -->
+<nav class="fixed top-0 w-full z-50 bg-white/70 dark:bg-slate-900/70 backdrop-blur-md shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center w-full px-8 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-black text-[#001d59] dark:text-white tracking-tighter">ABTE</div>
+<!-- Desktop Links -->
+<div class="hidden md:flex items-center gap-8">
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#001d59] dark:hover:text-white transition-colors text-sm uppercase tracking-wider font-medium" href="m_diath_que_abte_benin.html">Media Center</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#001d59] dark:hover:text-white transition-colors text-sm uppercase tracking-wider font-medium" href="actualit_s_abte_benin.html">News</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#001d59] dark:hover:text-white transition-colors text-sm uppercase tracking-wider font-medium" href="partenaires_abte_benin.html">Partners</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#001d59] dark:hover:text-white transition-colors text-sm uppercase tracking-wider font-medium" href="faq_abte_benin.html">FAQ</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="bg-primary text-on-primary px-6 py-2.5 rounded-xl font-medium hover:bg-primary-container transition-all hover:-translate-y-0.5 active:scale-95 duration-150">Student Portal</button>
+</div>
+</div>
+</nav>
+<main class="pt-32 pb-24">
+<!-- Hero Header -->
+<header class="max-w-4xl mx-auto px-8 mb-16">
+<nav class="flex items-center gap-2 mb-6 text-on-surface-variant text-sm font-medium">
+<a class="hover:text-primary transition-colors" href="accueil_abte_benin.html">Accueil</a>
+<span class="material-symbols-outlined text-xs">chevron_right</span>
+<span class="text-primary">Légal</span>
+</nav>
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-black text-primary tracking-tight leading-tight">
+                Mentions Légales &amp; <br/>Confidentialité
+            </h1>
+<div class="mt-8 h-1 w-24 bg-tertiary-fixed"></div>
+<p class="mt-8 text-lg text-on-surface-variant max-w-2xl leading-relaxed">
+                Dernière mise à jour : 24 Mai 2024. L'Agence Béninoise de Télé-Enseignement (ABTE) s'engage à protéger votre vie privée et à assurer la transparence de ses activités numériques.
+            </p>
+</header>
+<!-- Content Grid (Asymmetric Layout) -->
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-12 gap-16">
+<!-- Sticky Table of Contents (Desktop) -->
+<aside class="hidden lg:block lg:col-span-3 sticky top-32 h-fit">
+<nav class="flex flex-col gap-4 border-l-2 border-surface-container-high pl-6">
+<a class="text-sm font-bold text-primary hover:text-secondary transition-colors uppercase tracking-widest" href="#identification">Identification</a>
+<a class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors uppercase tracking-widest" href="#hebergement">Hébergement</a>
+<a class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors uppercase tracking-widest" href="#rgpd">Protection des Données</a>
+<a class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors uppercase tracking-widest" href="#cookies">Gestion des Cookies</a>
+<a class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors uppercase tracking-widest" href="#propriete">Propriété Intellectuelle</a>
+</nav>
+</aside>
+<!-- Main Legal Text -->
+<article class="lg:col-span-9 space-y-16">
+<!-- Section 1: Identification -->
+<section class="scroll-mt-32" id="identification">
+<h2 class="text-2xl font-bold text-primary mb-6 flex items-center gap-3">
+<span class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-primary text-sm">01</span>
+                        Éditeur du Site
+                    </h2>
+<div class="bg-surface-container-low p-8 rounded-xl space-y-4">
+<p class="text-on-surface leading-relaxed">
+                            Le présent site est édité par l'<strong>Agence Béninoise de Télé-Enseignement (ABTE)</strong>, établissement public à caractère social et scientifique, doté de la personnalité morale et de l'autonomie financière.
+                        </p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
+<div>
+<h3 class="text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-2">Siège Social</h3>
+<p class="text-on-surface">Quartier Les Cocotiers<br/>Avenue de la République<br/>Cotonou, République du Bénin</p>
+</div>
+<div>
+<h3 class="text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-2">Contact</h3>
+<p class="text-on-surface">Email : contact@abte.bj<br/>Téléphone : +229 21 00 00 00</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: Hosting -->
+<section class="scroll-mt-32" id="hebergement">
+<h2 class="text-2xl font-bold text-primary mb-6 flex items-center gap-3">
+<span class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-primary text-sm">02</span>
+                        Hébergement
+                    </h2>
+<p class="text-on-surface-variant leading-relaxed">
+                        Le site est hébergé par les serveurs sécurisés de la <strong>Société Béninoise d'Infrastructures Numériques (SBIN)</strong>, garantissant une souveraineté numérique et une protection optimale des données sur le territoire national béninois.
+                    </p>
+</section>
+<!-- Section 3: RGPD & APDP -->
+<section class="scroll-mt-32 bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-surface-container-high" id="rgpd">
+<h2 class="text-2xl font-bold text-primary mb-8 flex items-center gap-3">
+<span class="w-8 h-8 rounded-full bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed-variant text-sm">03</span>
+                        Protection des Données Personnelles
+                    </h2>
+<div class="prose prose-slate max-w-none text-on-surface-variant space-y-6">
+<p>
+                            Conformément à la <strong>Loi n° 2017-20 du 20 avril 2018 portant Code du numérique en République du Bénin</strong>, l'ABTE s'engage à traiter vos données avec la plus grande rigueur.
+                        </p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="p-6 bg-surface-container rounded-lg">
+<h4 class="font-bold text-primary mb-2">Finalités du traitement</h4>
+<ul class="list-disc list-inside space-y-1 text-sm">
+<li>Gestion des inscriptions aux cours</li>
+<li>Suivi pédagogique des étudiants</li>
+<li>Envoi de communications institutionnelles</li>
+<li>Amélioration de l'expérience utilisateur</li>
+</ul>
+</div>
+<div class="p-6 bg-surface-container rounded-lg">
+<h4 class="font-bold text-primary mb-2">Vos Droits</h4>
+<ul class="list-disc list-inside space-y-1 text-sm">
+<li>Droit d'accès et de rectification</li>
+<li>Droit à l'effacement (droit à l'oubli)</li>
+<li>Droit à la limitation du traitement</li>
+<li>Droit d'opposition pour motif légitime</li>
+</ul>
+</div>
+</div>
+<p class="text-sm italic p-4 bg-tertiary-container/10 border-l-4 border-tertiary-container rounded-r-lg">
+                            Pour exercer vos droits, veuillez contacter notre Délégué à la Protection des Données (DPO) à l'adresse : <span class="font-bold text-primary">dpo@abte.bj</span>
+</p>
+</div>
+</section>
+<!-- Section 4: Cookies -->
+<section class="scroll-mt-32" id="cookies">
+<h2 class="text-2xl font-bold text-primary mb-6 flex items-center gap-3">
+<span class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-primary text-sm">04</span>
+                        Politique des Cookies
+                    </h2>
+<div class="space-y-6 text-on-surface-variant">
+<p>
+                            Notre site utilise des traceurs ("cookies") pour améliorer la navigation et réaliser des statistiques de visites. Certains cookies sont strictement nécessaires au fonctionnement technique de la plateforme d'apprentissage.
+                        </p>
+<div class="overflow-x-auto">
+<table class="w-full text-left text-sm border-collapse">
+<thead>
+<tr class="bg-surface-container-highest">
+<th class="p-4 font-bold text-primary uppercase tracking-wider">Type</th>
+<th class="p-4 font-bold text-primary uppercase tracking-wider">Usage</th>
+<th class="p-4 font-bold text-primary uppercase tracking-wider">Durée</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container-high">
+<tr>
+<td class="p-4 font-semibold">Essentiels</td>
+<td class="p-4">Authentification session étudiant</td>
+<td class="p-4 text-on-surface-variant">Session</td>
+</tr>
+<tr>
+<td class="p-4 font-semibold">Analyse</td>
+<td class="p-4">Mesure d'audience anonyme</td>
+<td class="p-4 text-on-surface-variant">13 mois</td>
+</tr>
+<tr>
+<td class="p-4 font-semibold">Préférences</td>
+<td class="p-4">Choix de la langue et accessibilité</td>
+<td class="p-4 text-on-surface-variant">6 mois</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<!-- Section 5: Property -->
+<section class="scroll-mt-32" id="propriete">
+<h2 class="text-2xl font-bold text-primary mb-6 flex items-center gap-3">
+<span class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-primary text-sm">05</span>
+                        Propriété Intellectuelle
+                    </h2>
+<div class="p-8 bg-primary-container text-white rounded-2xl relative overflow-hidden">
+<!-- Background Texture -->
+<div class="absolute top-0 right-0 w-64 h-64 bg-secondary opacity-20 blur-3xl -mr-20 -mt-20"></div>
+<div class="relative z-10">
+<p class="leading-relaxed opacity-90">
+                                L'ensemble des contenus présents sur ce site (textes, vidéos de cours, structures pédagogiques, logos, iconographies) est la propriété exclusive de l'<strong>ABTE</strong> ou de ses partenaires académiques.
+                            </p>
+<div class="mt-6 flex flex-col md:flex-row gap-4 items-center">
+<span class="material-symbols-outlined text-4xl text-tertiary-fixed">gavel</span>
+<p class="text-sm font-medium">
+                                    Toute reproduction, représentation, modification ou publication, même partielle, sans l'accord préalable écrit de l'ABTE est strictement interdite et constitue une contrefaçon sanctionnée par le Code de la Propriété Intellectuelle.
+                                </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Final Contact CTA -->
+<section class="pt-8 border-t border-surface-container-high">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8 bg-surface-container-lowest p-8 rounded-xl">
+<div>
+<h3 class="text-xl font-bold text-primary mb-2">Des questions juridiques ?</h3>
+<p class="text-on-surface-variant">Notre service juridique est à votre disposition pour toute précision.</p>
+</div>
+<a class="inline-flex items-center gap-2 bg-secondary text-on-primary px-8 py-3 rounded-full font-bold hover:bg-secondary-container hover:text-on-secondary-container transition-all" href="mailto:legal@abte.bj">
+                            Contacter le service légal
+                            <span class="material-symbols-outlined">mail</span>
+</a>
+</div>
+</section>
+</article>
+</div>
+</main>
+<!-- Footer Shell -->
+<footer class="bg-[#001d59] dark:bg-slate-950 text-white dark:text-blue-100">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 py-16 max-w-7xl mx-auto">
+<div class="space-y-6">
+<div class="text-xl font-bold text-white">ABTE</div>
+<p class="text-slate-300 dark:text-slate-500 text-sm leading-relaxed">
+                    Agence Béninoise de Télé-Enseignement. <br/>L'excellence académique à portée de clic, partout au Bénin.
+                </p>
+</div>
+<div class="space-y-4">
+<h4 class="text-xs font-black uppercase tracking-[0.2em] text-on-primary-container">Institution</h4>
+<ul class="space-y-2">
+<li><a class="text-slate-300 dark:text-slate-500 hover:text-white underline transition-all text-sm" href="#">L'Agence</a></li>
+<li><a class="text-slate-300 dark:text-slate-500 hover:text-white underline transition-all text-sm" href="gouvernance_abte_benin.html">Gouvernance</a></li>
+<li><a class="text-slate-300 dark:text-slate-500 hover:text-white underline transition-all text-sm" href="contact_abte_benin.html">Recrutement</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<h4 class="text-xs font-black uppercase tracking-[0.2em] text-on-primary-container">Ressources</h4>
+<ul class="space-y-2">
+<li><a class="text-slate-300 dark:text-slate-500 hover:text-white underline transition-all text-sm" href="#">Bibliothèque Numérique</a></li>
+<li><a class="text-slate-300 dark:text-slate-500 hover:text-white underline transition-all text-sm" href="#">Guide de l'étudiant</a></li>
+<li><a class="text-[#00A3D9] font-medium text-sm" href="mentions_l_gales_abte_benin.html">Mentions Légales</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<h4 class="text-xs font-black uppercase tracking-[0.2em] text-on-primary-container">Support</h4>
+<ul class="space-y-2">
+<li><a class="text-slate-300 dark:text-slate-500 hover:text-white underline transition-all text-sm" href="#">Privacy Policy</a></li>
+<li><a class="text-slate-300 dark:text-slate-500 hover:text-white underline transition-all text-sm" href="#">Terms of Service</a></li>
+<li><a class="text-slate-300 dark:text-slate-500 hover:text-white underline transition-all text-sm" href="#">Contact Support</a></li>
+<li><a class="text-slate-300 dark:text-slate-500 hover:text-white underline transition-all text-sm" href="#">Institutional Access</a></li>
+</ul>
+</div>
+</div>
+<div class="border-t border-white/10 px-8 py-8 max-w-7xl mx-auto">
+<p class="text-xs text-slate-400 text-center">
+                © 2024 Agence Béninoise de Télé-Enseignement (ABTE). République du Bénin.
+            </p>
+</div>
+</footer>
+</body></html>
